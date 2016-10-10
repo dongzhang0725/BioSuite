@@ -1,0 +1,3414 @@
+
+Alignment topology with node labels:
+
+(((Monodelphis_domestica,(Macropus_eugenii,Sarcophilus_harrisii)#1#)#21#,Ornithorhynchus_anatinus)#31#,((((((((((Mus_musculus_1B,Rattus_norvegicus_1B)#2#,Dipodomys_ordii_1B)#22#,Cavia_porcellus_1B)#32#,Spermophilus_tridecemlineatus_1B)#40#,(((((Mus_musculus_1A,Rattus_norvegicus_1A)#3#,Dipodomys_ordii_1A)#23#,Cavia_porcellus_1A)#33#,(Oryctolagus_cuniculus_1A,Ochotona_princeps_1A)#4#)#41#,Spermophilus_tridecemlineatus_1A)#47#)#51#,(Oryctolagus_cuniculus_1B,Ochotona_princeps_1B)#5#)#55#,(((((((((Homo_sapiens_1,Pan_troglodytes_1)#6#,Gorilla_gorilla_1)#24#,Pongo_abelii_1)#34#,Nomascus_leucogenys_1)#42#,(Macaca_mulatta_1,Papio_hamadryas_1)#7#)#48#,Callithrix_jacchus_1)#52#,Tarsius_syrichta_1)#56#,(Microcebus_murinus_1,Otolemur_garnettii_1)#8#)#58#,Tupaia_belangeri_1)#60#)#62#,(((((((((Homo_sapiens_2,Pan_troglodytes_2)#9#,Gorilla_gorilla_2)#25#,Pongo_abelii_2)#35#,Nomascus_leucogenys_2)#43#,(Macaca_mulatta_2,Papio_hamadryas_2)#10#)#49#,Callithrix_jacchus_2)#53#,(Tarsius_syrichta_2,(Microcebus_murinus_2,Otolemur_garnettii_2)#11#)#26#)#57#,Tupaia_belangeri_2)#59#,((Mus_musculus_2,Rattus_norvegicus_2)#12#,(((Dipodomys_ordii_2,Spermophilus_tridecemlineatus_2)#13#,Cavia_porcellus_2)#27#,(Oryctolagus_cuniculus_2,Ochotona_princeps_2)#14#)#36#)#44#)#61#)#63#,((((Vicugna_pacos,(Tursiops_truncatus,(Bos_taurus,Ovis_aries)#15#)#28#)#37#,Sus_scrofa)#45#,((Equus_caballus,(Felis_catus,(Ailuropoda_melanoleuca,Canis_familiaris)#16#)#29#)#38#,(Myotis_lucifugus,Pteropus_vampyrus)#17#)#46#)#50#,(Erinaceus_europaeus,Sorex_araneus)#18#)#54#)#64#,(((Loxodonta_africana,Procavia_capensis)#19#,Echinops_telfairi)#30#,(Dasypus_novemcinctus,Choloepus_hoffmanni)#20#)#39#)#65#)#66#;
+
+Inferred evolutionary events per branch:
+
+branch Monodelphis_domestica
+ 79 D -> A
+ 125 L -> V
+ 126 S -> T
+ 131 H -> N
+ 153 L -> S
+ 197 A -> V
+ 228 K -> R
+ 299 L -> F
+ 306 P -> L
+ 329 V -> A
+ 346 A -> D
+ 360 D -> G
+ 414 V -> I
+ 556 V -> L
+ 612 V -> A
+ 621 V -> E
+ 684 V -> T
+ 685 V -> L
+ 716 I -> N
+ 796 R -> C
+ 811 P -> L
+ 830 W -> C
+ 916 Y -> C
+ 926 Y -> S
+ 932 G -> T
+ 947 R -> H
+ 949 F -> S
+ 950 Q -> K
+ 1039 E -> G
+ 1040 F -> Y
+ 1041 D -> E
+ 1062 S -> Y
+ 1065 D -> V
+ 1112 M -> V
+ 261..297 deletion
+ 672..679 deletion
+ 736..736 deletion
+
+branch Macropus_eugenii
+ 85 L -> M
+ 165 Q -> R
+ 166 V -> I
+ 312 H -> R
+ 313 R -> T
+ 412 N -> Y
+ 518 P -> L
+ 534 S -> A
+ 549 H -> Y
+ 580 P -> T
+ 622 I -> M
+ 725 I -> L
+ 780 L -> Q
+ 828 R -> Q
+ 863 K -> E
+ 898 S -> N
+ 911 E -> Q
+ 942 R -> G
+ 115..118 insertion
+ 139..144 insertion
+ 275..280 deletion
+
+branch Sarcophilus_harrisii
+ 13 S -> P
+ 51 A -> P
+ 56 T -> I
+ 69 K -> E
+ 79 D -> Y
+ 124 A -> T
+ 130 S -> F
+ 227 L -> M
+ 228 K -> N
+ 285 V -> F
+ 287 A -> V
+ 400 G -> R
+ 442 S -> P
+ 518 P -> R
+ 598 S -> F
+ 684 V -> A
+ 708 Y -> H
+ 737 G -> A
+ 754 S -> Y
+ 788 R -> C
+ 819 G -> S
+ 869 K -> Q
+ 874 A -> V
+ 878 F -> S
+ 904 A -> T
+ 945 M -> V
+ 44..45 insertion
+ 68..68 insertion
+ 387..388 deletion
+
+branch Ornithorhynchus_anatinus
+ 6 I -> M
+ 7 I -> F
+ 8 A -> P
+ 15 N -> S
+ 18 H -> R
+ 27 S -> C
+ 49 V -> K
+ 71 V -> L
+ 85 S -> L
+ 106 S -> I
+ 127 A -> Q
+ 128 T -> I
+ 129 T -> K
+ 132 R -> P
+ 147 K -> R
+ 163 Y -> C
+ 164 I -> V
+ 167 S -> A
+ 188 G -> R
+ 190 P -> L
+ 195 N -> S
+ 199 L -> S
+ 202 P -> W
+ 226 R -> G
+ 240 S -> F
+ 241 P -> L
+ 249 A -> E
+ 253 A -> T
+ 274 P -> S
+ 285 V -> I
+ 286 T -> P
+ 312 R -> Q
+ 314 D -> N
+ 316 F -> S
+ 337 W -> Y
+ 350 V -> I
+ 353 P -> S
+ 354 P -> L
+ 358 S -> F
+ 361 G -> R
+ 362 V -> I
+ 375 D -> N
+ 385 R -> T
+ 387 R -> S
+ 400 G -> E
+ 414 V -> L
+ 415 R -> K
+ 445 C -> Y
+ 465 P -> S
+ 466 L -> F
+ 470 E -> G
+ 489 R -> G
+ 490 R -> P
+ 491 A -> E
+ 499 L -> F
+ 523 L -> F
+ 527 P -> L
+ 548 S -> C
+ 577 R -> I
+ 596 A -> T
+ 612 V -> I
+ 666 A -> R
+ 687 F -> S
+ 688 R -> T
+ 692 I -> V
+ 696 L -> F
+ 707 T -> S
+ 711 W -> L
+ 717 L -> I
+ 718 G -> R
+ 722 G -> E
+ 733 T -> A
+ 734 S -> G
+ 762 L -> R
+ 765 R -> Q
+ 778 Y -> D
+ 793 N -> S
+ 797 E -> Q
+ 805 A -> I
+ 830 W -> S
+ 845 R -> Q
+ 846 L -> F
+ 854 G -> R
+ 870 R -> G
+ 878 F -> L
+ 911 E -> Q
+ 926 Y -> C
+ 931 R -> H
+ 942 R -> G
+ 945 M -> V
+ 958 T -> I
+ 965 H -> R
+ 984 P -> S
+ 1010 I -> M
+ 1012 L -> P
+ 1015 Y -> F
+ 1016 P -> S
+ 1017 Q -> P
+ 1020 L -> V
+ 1021 I -> V
+ 1035 P -> L
+ 1056 V -> L
+ 1059 S -> I
+ 1063 Q -> E
+ 1090 Q -> E
+ 1107 P -> S
+ 1110 A -> T
+ 1138 D -> N
+ 52..55 insertion
+ 95..95 insertion
+ 169..170 insertion
+ 193..193 deletion
+ 215..220 deletion
+ 231..232 deletion
+ 383..383 deletion
+ 437..439 deletion
+ 614..618 insertion
+ 678..678 deletion
+ 712..713 deletion
+ 732..732 deletion
+ 803..804 insertion
+ 834..834 deletion
+ 842..842 insertion
+ 847..847 deletion
+ 862..862 insertion
+ 872..872 deletion
+ 917..917 insertion
+ 959..959 insertion
+ 1060..1060 deletion
+ 1105..1106 deletion
+ 1119..1119 insertion
+ 1122..1122 insertion
+
+branch Mus_musculus_1B
+ 5 I -> M
+ 14 Q -> L
+ 49 V -> A
+ 104 V -> A
+ 130 S -> F
+ 309 W -> L
+ 352 R -> G
+ 353 P -> T
+ 522 Y -> H
+ 546 R -> G
+ 563 G -> R
+ 713 A -> T
+ 719 H -> P
+ 832 V -> I
+ 845 W -> G
+ 857 S -> P
+ 936 I -> M
+ 1067 A -> P
+ 1136 N -> H
+ 488..488 insertion
+ 579..579 deletion
+ 937..938 insertion
+
+branch Rattus_norvegicus_1B
+ 20 L -> F
+ 80 T -> A
+ 137 T -> I
+ 138 R -> G
+ 172 N -> K
+ 193 D -> N
+ 200 R -> Q
+ 203 R -> H
+ 234 L -> V
+ 252 C -> R
+ 279 K -> T
+ 387 R -> P
+ 473 P -> L
+ 539 V -> A
+ 622 I -> T
+ 628 H -> L
+ 699 S -> A
+ 733 T -> S
+ 788 R -> W
+ 872 E -> G
+ 949 F -> L
+ 986 S -> G
+ 1008 T -> P
+ 1032 Q -> H
+ 1057 E -> G
+ 490..490 deletion
+
+branch Dipodomys_ordii_1B
+ 4 P -> R
+ 6 V -> A
+ 58 P -> L
+ 124 A -> P
+ 125 L -> R
+ 161 D -> N
+ 188 E -> D
+ 193 D -> N
+ 202 P -> R
+ 223 A -> T
+ 227 M -> T
+ 250 V -> A
+ 252 C -> G
+ 260 S -> P
+ 314 D -> C
+ 316 F -> L
+ 348 G -> E
+ 354 P -> S
+ 360 N -> Y
+ 382 L -> V
+ 415 G -> V
+ 425 A -> T
+ 439 H -> L
+ 495 S -> T
+ 496 K -> Q
+ 526 G -> E
+ 573 N -> T
+ 622 I -> V
+ 628 H -> R
+ 630 M -> I
+ 645 L -> S
+ 697 I -> L
+ 713 A -> T
+ 730 F -> L
+ 733 T -> A
+ 746 R -> S
+ 749 S -> P
+ 801 S -> G
+ 827 R -> I
+ 831 A -> V
+ 898 S -> N
+ 905 L -> R
+ 916 Y -> H
+ 918 S -> P
+ 941 H -> R
+ 960 W -> A
+ 983 I -> T
+ 987 G -> R
+ 1014 L -> C
+ 1089 L -> Q
+ 1107 H -> P
+ 1124 K -> M
+ 11..11 deletion
+ 96..96 deletion
+ 279..282 deletion
+ 288..292 insertion
+ 376..376 deletion
+ 650..650 insertion
+ 766..767 insertion
+ 912..912 insertion
+ 948..948 insertion
+ 1056..1063 deletion
+
+branch Cavia_porcellus_1B
+ 46 L -> R
+ 113 G -> C
+ 126 S -> L
+ 130 S -> P
+ 147 T -> A
+ 158 I -> T
+ 172 N -> S
+ 228 K -> N
+ 252 C -> F
+ 262 Q -> R
+ 299 M -> I
+ 315 I -> V
+ 329 V -> M
+ 362 V -> L
+ 419 Y -> C
+ 487 I -> N
+ 493 A -> V
+ 498 T -> R
+ 502 L -> S
+ 536 K -> E
+ 537 L -> I
+ 612 V -> A
+ 619 Q -> K
+ 622 I -> L
+ 630 M -> L
+ 678 I -> T
+ 681 T -> I
+ 685 V -> L
+ 689 T -> A
+ 695 Q -> H
+ 712 V -> L
+ 717 L -> F
+ 718 G -> V
+ 736 N -> Y
+ 737 V -> E
+ 738 I -> K
+ 741 S -> C
+ 768 C -> S
+ 772 K -> R
+ 801 S -> R
+ 805 A -> V
+ 830 W -> R
+ 857 S -> F
+ 870 R -> P
+ 931 R -> H
+ 932 G -> R
+ 940 Q -> P
+ 944 W -> G
+ 958 T -> I
+ 1062 S -> C
+ 1064 P -> H
+ 1065 D -> G
+ 1107 H -> D
+ 1109 L -> F
+ 1118 P -> L
+ 246..248 insertion
+ 475..475 insertion
+ 582..582 deletion
+ 599..611 insertion
+ 894..897 insertion
+ 962..964 insertion
+ 1012..1012 deletion
+ 1125..1126 insertion
+
+branch Spermophilus_tridecemlineatus_1B
+ 48 M -> L
+ 60 V -> M
+ 77 I -> M
+ 132 W -> C
+ 152 V -> A
+ 188 E -> K
+ 278 M -> R
+ 281 M -> R
+ 308 K -> N
+ 317 S -> Y
+ 357 A -> V
+ 361 G -> R
+ 401 I -> L
+ 445 S -> Y
+ 469 L -> P
+ 491 T -> M
+ 495 S -> G
+ 496 K -> N
+ 498 T -> A
+ 526 G -> R
+ 528 K -> R
+ 549 N -> K
+ 581 L -> F
+ 598 S -> C
+ 619 Q -> P
+ 622 I -> F
+ 679 D -> N
+ 690 N -> H
+ 730 F -> L
+ 733 T -> A
+ 734 S -> G
+ 737 V -> A
+ 790 Q -> H
+ 794 L -> F
+ 864 W -> S
+ 868 T -> A
+ 914 I -> V
+ 932 G -> E
+ 933 A -> P
+ 941 H -> N
+ 983 I -> F
+ 1059 S -> N
+ 1060 G -> C
+ 1062 S -> C
+ 1106 S -> P
+ 119..119 deletion
+ 154..156 insertion
+ 428..428 deletion
+ 631..632 insertion
+ 723..723 deletion
+ 934..935 insertion
+ 1033..1033 insertion
+ 1116..1116 insertion
+
+branch Mus_musculus_1A
+ 31 I -> T
+ 39 D -> A
+ 57 S -> A
+ 60 V -> L
+ 121 T -> S
+ 203 R -> S
+ 276 W -> R
+ 453 P -> A
+ 500 W -> R
+ 519 V -> A
+ 546 R -> W
+ 551 M -> R
+ 563 G -> R
+ 598 S -> F
+ 687 F -> S
+ 696 L -> V
+ 713 A -> E
+ 719 H -> V
+ 772 K -> E
+ 833 H -> R
+ 852 W -> R
+ 1034 Y -> C
+ 1131 L -> V
+ 146..146 insertion
+ 694..694 insertion
+ 750..753 insertion
+ 1018..1018 insertion
+ 1135..1135 deletion
+
+branch Rattus_norvegicus_1A
+ 18 N -> S
+ 19 L -> R
+ 31 I -> L
+ 34 T -> S
+ 108 W -> S
+ 135 P -> T
+ 196 L -> I
+ 262 R -> G
+ 264 A -> T
+ 272 A -> T
+ 305 S -> T
+ 310 S -> F
+ 359 T -> A
+ 452 P -> L
+ 496 M -> L
+ 530 H -> C
+ 536 K -> I
+ 539 V -> I
+ 686 M -> V
+ 690 N -> T
+ 697 R -> G
+ 724 M -> I
+ 733 T -> P
+ 738 I -> T
+ 765 R -> C
+ 810 V -> A
+ 831 D -> Y
+ 854 G -> E
+ 878 F -> S
+ 1061 L -> M
+ 1097 V -> M
+ 1100 R -> G
+ 1109 L -> F
+ 721..721 insertion
+ 863..864 deletion
+
+branch Dipodomys_ordii_1A
+ 7 I -> L
+ 33 H -> Q
+ 34 T -> P
+ 56 L -> R
+ 88 R -> L
+ 110 T -> M
+ 137 T -> S
+ 163 Y -> R
+ 216 G -> D
+ 219 Q -> H
+ 232 T -> I
+ 241 P -> L
+ 263 W -> V
+ 280 K -> E
+ 308 K -> R
+ 314 D -> G
+ 340 A -> F
+ 346 A -> S
+ 348 G -> E
+ 350 V -> I
+ 354 P -> S
+ 360 N -> I
+ 377 Q -> E
+ 385 R -> S
+ 387 R -> Q
+ 388 I -> S
+ 416 F -> L
+ 451 G -> V
+ 471 Q -> K
+ 492 H -> L
+ 521 H -> D
+ 539 V -> A
+ 552 V -> L
+ 572 L -> P
+ 628 H -> Q
+ 666 A -> S
+ 677 Y -> H
+ 696 L -> S
+ 725 I -> F
+ 729 R -> M
+ 734 N -> K
+ 758 Q -> P
+ 768 C -> Y
+ 801 S -> T
+ 856 K -> M
+ 864 W -> G
+ 922 R -> S
+ 1010 I -> N
+ 1015 Y -> D
+ 1031 L -> P
+ 1045 D -> G
+ 1053 I -> S
+ 1059 S -> G
+ 1065 D -> N
+ 1109 L -> S
+ 76..81 deletion
+ 300..303 insertion
+ 329..329 deletion
+ 342..342 deletion
+ 429..437 deletion
+ 495..502 deletion
+ 546..546 deletion
+ 549..551 deletion
+ 582..627 deletion
+ 715..718 deletion
+ 829..829 insertion
+ 878..878 deletion
+ 905..905 deletion
+ 1046..1052 insertion
+ 1136..1136 deletion
+
+branch Cavia_porcellus_1A
+ 4 P -> A
+ 29 V -> A
+ 47 T -> R
+ 48 M -> I
+ 49 V -> K
+ 50 L -> P
+ 58 P -> L
+ 79 G -> D
+ 80 T -> S
+ 93 S -> G
+ 98 N -> G
+ 113 G -> V
+ 129 T -> K
+ 137 T -> N
+ 190 S -> V
+ 196 L -> P
+ 203 R -> S
+ 217 A -> R
+ 223 A -> V
+ 227 M -> L
+ 231 S -> P
+ 232 T -> S
+ 238 F -> S
+ 244 R -> L
+ 312 R -> H
+ 316 F -> S
+ 353 P -> L
+ 362 V -> A
+ 414 V -> I
+ 416 F -> L
+ 419 Y -> R
+ 426 E -> K
+ 441 P -> L
+ 489 R -> G
+ 498 T -> I
+ 522 Y -> H
+ 523 L -> R
+ 623 L -> R
+ 627 T -> A
+ 684 V -> A
+ 698 S -> A
+ 768 C -> G
+ 790 Q -> H
+ 828 R -> Q
+ 916 Y -> C
+ 922 R -> G
+ 923 P -> L
+ 925 L -> M
+ 942 R -> G
+ 947 R -> Q
+ 965 H -> L
+ 1032 Q -> L
+ 1045 D -> Y
+ 1104 F -> L
+ 1113 S -> P
+ 1138 D -> G
+ 125..125 deletion
+ 495..497 deletion
+ 843..843 deletion
+ 846..859 deletion
+ 1035..1035 deletion
+
+branch Oryctolagus_cuniculus_1A
+ 1 R -> P
+ 10 L -> F
+ 29 V -> L
+ 120 R -> G
+ 137 T -> S
+ 222 A -> E
+ 293 R -> K
+ 353 P -> A
+ 376 A -> T
+ 380 L -> S
+ 389 R -> S
+ 428 D -> Y
+ 435 R -> W
+ 505 K -> I
+ 535 S -> F
+ 545 K -> Q
+ 546 R -> P
+ 549 N -> D
+ 620 R -> G
+ 630 M -> I
+ 846 L -> R
+ 851 P -> S
+ 868 T -> K
+ 82..82 insertion
+ 579..579 deletion
+ 892..893 insertion
+
+branch Ochotona_princeps_1A
+ 7 I -> S
+ 108 W -> C
+ 110 T -> P
+ 129 T -> A
+ 131 H -> Y
+ 194 G -> W
+ 197 A -> G
+ 217 A -> G
+ 226 R -> P
+ 232 T -> I
+ 240 S -> P
+ 250 V -> M
+ 251 A -> G
+ 261 S -> R
+ 275 P -> L
+ 312 R -> G
+ 317 S -> P
+ 377 Q -> R
+ 416 F -> S
+ 437 R -> M
+ 471 Q -> R
+ 473 P -> R
+ 505 K -> E
+ 530 H -> Q
+ 563 G -> E
+ 688 R -> S
+ 778 H -> P
+ 796 R -> C
+ 805 A -> V
+ 823 Q -> H
+ 827 R -> T
+ 834 A -> V
+ 848 K -> Q
+ 903 A -> P
+ 972 R -> M
+ 1107 H -> Q
+ 1115 P -> L
+ 49..50 deletion
+ 402..402 insertion
+ 737..737 deletion
+ 1056..1106 deletion
+
+branch Spermophilus_tridecemlineatus_1A
+ 5 I -> L
+ 20 L -> I
+ 56 L -> P
+ 60 V -> G
+ 109 S -> W
+ 131 H -> D
+ 134 V -> E
+ 153 L -> F
+ 190 S -> L
+ 196 L -> R
+ 198 R -> W
+ 219 Q -> L
+ 244 R -> H
+ 253 A -> G
+ 282 S -> Y
+ 306 P -> R
+ 317 S -> C
+ 350 V -> A
+ 412 N -> I
+ 419 Y -> H
+ 428 D -> N
+ 518 P -> L
+ 549 N -> I
+ 564 V -> D
+ 573 N -> K
+ 581 L -> S
+ 622 I -> S
+ 732 A -> S
+ 749 S -> A
+ 758 Q -> H
+ 792 R -> K
+ 801 S -> R
+ 811 P -> R
+ 873 H -> D
+ 899 L -> S
+ 911 E -> D
+ 942 R -> Q
+ 950 Q -> R
+ 972 R -> K
+ 983 I -> V
+ 1034 Y -> F
+ 1120 K -> R
+ 1130 C -> Y
+ 91..91 insertion
+ 97..97 insertion
+ 318..342 deletion
+ 347..347 insertion
+ 496..496 deletion
+ 501..501 insertion
+ 718..718 deletion
+ 763..764 insertion
+ 926..926 deletion
+ 966..970 insertion
+
+branch Oryctolagus_cuniculus_1B
+ 48 M -> L
+ 80 T -> N
+ 167 S -> L
+ 171 D -> E
+ 228 K -> T
+ 271 V -> A
+ 276 W -> L
+ 297 R -> M
+ 299 M -> V
+ 314 D -> N
+ 342 V -> I
+ 376 A -> P
+ 380 L -> V
+ 434 S -> R
+ 487 I -> V
+ 518 P -> L
+ 519 V -> I
+ 684 V -> L
+ 711 W -> G
+ 714 R -> Q
+ 725 I -> N
+ 741 S -> P
+ 792 R -> K
+ 922 R -> C
+ 928 L -> D
+ 965 H -> Q
+ 1008 T -> I
+ 1017 Q -> R
+ 1054 P -> S
+ 1115 P -> T
+ 1138 D -> G
+ 29..29 deletion
+ 241..242 deletion
+ 531..531 deletion
+ 987..987 deletion
+ 1062..1062 deletion
+
+branch Ochotona_princeps_1B
+ 9 Q -> H
+ 13 S -> P
+ 20 L -> F
+ 46 L -> Q
+ 79 G -> S
+ 113 G -> A
+ 145 P -> S
+ 167 S -> P
+ 197 A -> P
+ 219 Q -> H
+ 232 T -> A
+ 239 F -> S
+ 241 P -> H
+ 242 V -> I
+ 261 S -> N
+ 270 S -> R
+ 278 M -> I
+ 310 S -> C
+ 313 S -> T
+ 315 I -> V
+ 316 F -> L
+ 324 R -> W
+ 353 P -> L
+ 387 R -> P
+ 412 N -> H
+ 452 P -> H
+ 481 I -> A
+ 482 E -> A
+ 518 P -> S
+ 522 Y -> H
+ 582 A -> D
+ 623 L -> I
+ 629 V -> F
+ 630 M -> I
+ 663 L -> F
+ 687 F -> Y
+ 690 N -> T
+ 697 I -> T
+ 725 I -> V
+ 730 F -> S
+ 742 G -> V
+ 747 S -> P
+ 780 S -> T
+ 782 S -> G
+ 793 N -> S
+ 834 A -> V
+ 845 R -> W
+ 885 V -> G
+ 936 I -> G
+ 1013 T -> M
+ 1015 Y -> H
+ 1016 P -> L
+ 1044 Y -> F
+ 1056 V -> M
+ 1059 S -> R
+ 1063 P -> T
+ 1067 A -> D
+ 1124 K -> E
+ 1130 C -> Y
+ 162..162 insertion
+ 293..299 deletion
+ 342..342 deletion
+ 343..344 insertion
+ 346..352 deletion
+ 354..354 deletion
+ 397..397 deletion
+ 423..424 insertion
+ 548..549 deletion
+ 620..620 deletion
+ 683..683 insertion
+ 768..768 deletion
+ 781..781 insertion
+ 867..867 insertion
+ 874..874 deletion
+ 939..971 deletion
+ 1112..1118 deletion
+
+branch Homo_sapiens_1
+ 282 S -> T
+ 383 D -> Y
+ 854 G -> R
+
+branch Pan_troglodytes_1
+ 427 S -> C
+ 295..296 insertion
+
+branch Gorilla_gorilla_1
+ 419 Y -> F
+ 686 M -> I
+ 719 H -> Y
+ 807 L -> F
+
+branch Pongo_abelii_1
+ 18 N -> K
+ 104 V -> A
+ 215 T -> A
+ 854 G -> R
+ 739..740 insertion
+
+branch Nomascus_leucogenys_1
+ 119 F -> L
+ 193 D -> G
+ 299 M -> I
+ 305 S -> A
+ 360 N -> I
+ 385 R -> S
+ 445 T -> N
+ 708 Y -> S
+ 738 I -> M
+ 742 G -> S
+ 864 W -> C
+ 1021 I -> L
+ 1068..1074 insertion
+
+branch Macaca_mulatta_1
+ 138 R -> W
+ 500 W -> C
+ 564 V -> A
+ 695 Q -> L
+
+branch Papio_hamadryas_1
+ 677 Y -> F
+ 864 W -> S
+ 914 I -> S
+
+branch Callithrix_jacchus_1
+ 158 V -> I
+ 209 L -> V
+ 249 A -> V
+ 251 A -> G
+ 261 S -> C
+ 329 V -> G
+ 345 F -> L
+ 412 N -> T
+ 417 P -> L
+ 546 R -> G
+ 630 M -> V
+ 736 T -> I
+ 747 S -> F
+ 915 W -> R
+ 983 I -> T
+ 1034 Y -> S
+ 1059 S -> G
+ 1108 L -> Q
+ 386..386 insertion
+ 1110..1124 deletion
+
+branch Tarsius_syrichta_1
+ 4 P -> R
+ 7 I -> T
+ 29 V -> F
+ 49 V -> A
+ 129 T -> A
+ 137 T -> P
+ 188 E -> D
+ 204 K -> E
+ 214 T -> A
+ 275 A -> S
+ 309 W -> R
+ 349 H -> Y
+ 353 P -> L
+ 388 I -> V
+ 432 L -> I
+ 519 V -> A
+ 547 R -> Q
+ 692 I -> L
+ 707 T -> P
+ 712 V -> A
+ 723 S -> L
+ 737 V -> A
+ 742 G -> C
+ 802 L -> V
+ 811 P -> R
+ 851 P -> R
+ 898 S -> R
+ 903 A -> G
+ 928 L -> Y
+ 965 H -> L
+ 987 G -> R
+ 1059 S -> R
+ 1104 F -> S
+ 1106 S -> P
+ 5..5 deletion
+ 76..77 deletion
+ 89..89 insertion
+ 136..136 insertion
+ 245..245 insertion
+ 285..287 deletion
+ 437..437 deletion
+ 795..795 insertion
+ 858..858 insertion
+
+branch Microcebus_murinus_1
+ 47 T -> A
+ 60 V -> A
+ 99 S -> L
+ 124 A -> P
+ 127 A -> E
+ 145 P -> L
+ 346 A -> P
+ 353 P -> S
+ 383 D -> E
+ 549 N -> T
+ 564 V -> A
+ 579 L -> F
+ 685 V -> A
+ 686 M -> R
+ 696 L -> V
+ 697 I -> K
+ 719 H -> L
+ 722 G -> E
+ 859 L -> V
+ 905 L -> F
+ 939 W -> R
+ 1007 M -> I
+ 1124 K -> N
+ 217..217 deletion
+ 260..260 deletion
+ 265..268 insertion
+ 928..931 deletion
+
+branch Otolemur_garnettii_1
+ 8 A -> T
+ 80 T -> A
+ 104 V -> A
+ 128 T -> S
+ 134 V -> M
+ 135 P -> S
+ 164 I -> V
+ 190 S -> L
+ 200 R -> Q
+ 228 K -> N
+ 280 K -> E
+ 281 M -> K
+ 282 S -> W
+ 299 M -> I
+ 310 S -> F
+ 353 P -> L
+ 358 S -> P
+ 375 D -> Y
+ 412 N -> I
+ 434 S -> C
+ 442 S -> P
+ 469 L -> P
+ 538 P -> R
+ 549 N -> D
+ 619 Q -> H
+ 686 M -> I
+ 692 I -> V
+ 719 H -> R
+ 725 I -> V
+ 730 F -> L
+ 775 V -> A
+ 778 Y -> D
+ 796 R -> H
+ 844 S -> A
+ 905 L -> V
+ 928 L -> Y
+ 933 A -> I
+ 1032 Q -> P
+ 1054 P -> H
+ 1056 V -> L
+ 1110 A -> D
+ 1113 S -> Y
+ 96..101 deletion
+ 378..379 insertion
+ 490..490 deletion
+ 532..532 insertion
+ 941..941 deletion
+
+branch Tupaia_belangeri_1
+ 8 A -> T
+ 29 V -> A
+ 46 L -> P
+ 93 S -> F
+ 94 Y -> D
+ 109 S -> P
+ 111 G -> V
+ 119 F -> Y
+ 152 V -> A
+ 199 L -> P
+ 214 T -> R
+ 227 M -> I
+ 250 V -> L
+ 251 A -> V
+ 261 S -> C
+ 275 A -> V
+ 280 K -> R
+ 282 S -> F
+ 294 C -> S
+ 308 K -> R
+ 310 S -> F
+ 313 S -> I
+ 314 D -> G
+ 316 F -> L
+ 345 F -> L
+ 350 V -> A
+ 388 I -> T
+ 422 S -> F
+ 427 S -> A
+ 441 P -> S
+ 445 T -> F
+ 491 T -> A
+ 498 T -> K
+ 546 R -> G
+ 577 R -> K
+ 580 P -> L
+ 598 S -> C
+ 630 M -> L
+ 687 F -> Y
+ 708 Y -> G
+ 723 S -> L
+ 724 M -> I
+ 737 V -> L
+ 738 I -> M
+ 802 L -> S
+ 852 L -> M
+ 878 F -> I
+ 910 S -> L
+ 928 L -> F
+ 939 W -> R
+ 941 H -> P
+ 944 W -> R
+ 947 R -> L
+ 965 H -> L
+ 1032 Q -> K
+ 1044 Y -> D
+ 1058 V -> E
+ 1067 A -> G
+ 1112 M -> V
+ 60..60 deletion
+ 163..189 deletion
+ 277..277 insertion
+ 443..443 insertion
+ 574..575 insertion
+ 680..680 insertion
+ 720..720 insertion
+ 726..726 insertion
+ 789..789 insertion
+ 849..850 insertion
+
+branch Homo_sapiens_2
+ 828 Q -> K
+ 1056 V -> I
+
+branch Pan_troglodytes_2
+ 166 V -> D
+ 1138 D -> H
+ 843..843 deletion
+
+branch Gorilla_gorilla_2
+ 200 R -> P
+ 734 S -> R
+ 1011 L -> F
+ 1077 G -> V
+ 2..3 insertion
+
+branch Pongo_abelii_2
+ 124 A -> T
+ 519 V -> A
+ 729 R -> G
+ 1106 S -> T
+ 685..685 deletion
+
+branch Nomascus_leucogenys_2
+ 135 P -> S
+ 150 N -> I
+ 204 K -> R
+ 305 S -> F
+ 498 T -> K
+ 548 S -> G
+ 758 Q -> L
+ 832 V -> I
+ 910 S -> L
+ 1067 A -> T
+ 76..92 deletion
+ 281..281 deletion
+ 549..583 deletion
+ 651..662 insertion
+ 845..845 deletion
+
+branch Macaca_mulatta_2
+ 228 K -> E
+ 627 T -> P
+
+branch Papio_hamadryas_2
+ 69 R -> S
+ 194 G -> R
+ 622 V -> I
+ 983 I -> V
+
+branch Callithrix_jacchus_2
+ 7 I -> S
+ 85 S -> T
+ 158 I -> T
+ 188 E -> K
+ 253 A -> G
+ 313 V -> I
+ 418 T -> S
+ 551 L -> F
+ 583 G -> S
+ 589 G -> D
+ 592 E -> V
+ 620 S -> N
+ 686 M -> K
+ 718 G -> S
+ 724 M -> L
+ 780 S -> L
+ 827 R -> M
+ 904 A -> P
+ 916 Y -> F
+ 988..990 insertion
+ 1015..1015 deletion
+
+branch Tarsius_syrichta_2
+ 50 L -> R
+ 128 T -> A
+ 138 R -> Q
+ 147 T -> K
+ 213 G -> E
+ 215 T -> A
+ 239 F -> I
+ 262 Q -> H
+ 272 A -> P
+ 282 S -> P
+ 314 D -> N
+ 315 I -> S
+ 354 P -> A
+ 412 N -> K
+ 428 N -> D
+ 469 L -> P
+ 473 P -> L
+ 505 K -> E
+ 535 P -> S
+ 714 R -> Q
+ 724 M -> V
+ 730 F -> L
+ 736 N -> I
+ 738 I -> L
+ 856 K -> N
+ 857 S -> F
+ 926 Y -> H
+ 945 M -> V
+ 1062 S -> F
+ 99..108 deletion
+ 430..431 insertion
+ 673..676 insertion
+ 677..688 deletion
+ 783..787 insertion
+ 918..918 deletion
+
+branch Microcebus_murinus_2
+ 4 P -> T
+ 102 A -> D
+ 105 D -> E
+ 111 G -> D
+ 114 L -> M
+ 134 V -> L
+ 135 P -> H
+ 150 N -> S
+ 163 Y -> H
+ 164 I -> V
+ 219 Q -> E
+ 294 C -> G
+ 309 W -> R
+ 349 H -> Y
+ 361 G -> R
+ 434 S -> R
+ 487 I -> S
+ 649 R -> G
+ 677 Y -> H
+ 693 R -> S
+ 737 V -> G
+ 771 T -> A
+ 807 L -> V
+ 863 K -> N
+ 961 A -> T
+ 972 S -> N
+ 1034 Y -> H
+ 1115 P -> A
+ 1123 S -> W
+ 1136 N -> H
+ 384..384 insertion
+ 722..732 deletion
+ 765..765 deletion
+
+branch Otolemur_garnettii_2
+ 29 V -> D
+ 58 A -> P
+ 79 D -> G
+ 110 T -> K
+ 193 D -> N
+ 199 L -> S
+ 308 K -> N
+ 414 V -> G
+ 419 Y -> H
+ 434 S -> N
+ 470 V -> E
+ 471 Q -> L
+ 473 P -> L
+ 492 H -> R
+ 534 P -> S
+ 548 S -> G
+ 629 V -> I
+ 734 S -> N
+ 796 R -> C
+ 823 Q -> R
+ 856 K -> T
+ 857 S -> F
+ 866 H -> Y
+ 926 Y -> S
+ 936 I -> L
+ 960 W -> R
+ 1032 Q -> K
+ 1055 R -> P
+ 1107 P -> S
+ 1111 L -> Q
+ 1115 P -> T
+ 1117 L -> V
+ 1123 S -> C
+ 16..16 insertion
+ 49..49 deletion
+ 135..145 deletion
+ 310..310 deletion
+ 593..594 insertion
+ 771..771 deletion
+ 927..927 insertion
+
+branch Tupaia_belangeri_2
+ 7 I -> T
+ 13 S -> P
+ 58 A -> T
+ 77 I -> M
+ 108 W -> R
+ 109 S -> T
+ 128 T -> I
+ 130 S -> P
+ 132 W -> L
+ 145 P -> S
+ 197 A -> E
+ 251 A -> E
+ 252 C -> G
+ 308 K -> E
+ 313 S -> C
+ 314 D -> N
+ 324 R -> T
+ 349 H -> Y
+ 350 V -> A
+ 414 V -> I
+ 434 S -> R
+ 439 H -> Q
+ 454 L -> S
+ 505 K -> N
+ 547 R -> W
+ 549 N -> K
+ 580 P -> S
+ 678 I -> L
+ 688 R -> G
+ 689 T -> I
+ 730 F -> S
+ 746 R -> K
+ 780 S -> L
+ 832 V -> A
+ 844 G -> R
+ 845 R -> W
+ 847 E -> G
+ 856 K -> R
+ 863 K -> I
+ 868 T -> P
+ 898 S -> I
+ 931 R -> C
+ 933 A -> P
+ 971 Y -> Q
+ 984 L -> P
+ 985 A -> T
+ 987 G -> C
+ 1013 T -> P
+ 1032 Q -> K
+ 1053 I -> N
+ 1059 S -> R
+ 1062 S -> F
+ 1111 L -> R
+ 1117 L -> S
+ 1120 K -> R
+ 81..81 deletion
+ 92..92 deletion
+ 99..102 deletion
+ 319..323 insertion
+ 361..361 deletion
+ 563..563 deletion
+ 820..821 insertion
+ 929..929 insertion
+ 1067..1090 deletion
+
+branch Mus_musculus_2
+ 13 S -> L
+ 133 Q -> R
+ 218 S -> P
+ 220 R -> S
+ 222 A -> G
+ 244 R -> G
+ 340 A -> G
+ 352 R -> K
+ 563 G -> R
+ 668 M -> L
+ 749 S -> A
+ 819 G -> R
+ 851 P -> L
+ 898 S -> R
+ 1031 L -> R
+ 71..77 deletion
+ 325..325 insertion
+ 351..351 insertion
+
+branch Rattus_norvegicus_2
+ 29 I -> N
+ 85 S -> L
+ 119 F -> S
+ 147 T -> A
+ 218 S -> T
+ 219 Q -> R
+ 231 S -> P
+ 244 R -> H
+ 294 C -> S
+ 318 L -> R
+ 358 S -> F
+ 360 N -> D
+ 377 Q -> H
+ 404 P -> L
+ 405 A -> T
+ 496 K -> R
+ 497 I -> L
+ 518 P -> L
+ 520 Y -> S
+ 552 S -> G
+ 579 L -> S
+ 582 A -> D
+ 620 S -> R
+ 824 D -> E
+ 843 S -> G
+ 931 R -> C
+ 1016 P -> Q
+ 1044 Y -> N
+ 1065 D -> G
+ 1066 G -> A
+ 1105 Q -> P
+ 1107 P -> R
+ 1124 K -> Q
+ 1136 N -> D
+ 21..25 insertion
+ 50..50 deletion
+ 92..92 deletion
+ 353..353 deletion
+ 436..436 insertion
+ 540..540 insertion
+ 733..737 deletion
+ 776..777 insertion
+ 812..818 insertion
+ 1019..1019 insertion
+
+branch Dipodomys_ordii_2
+ 15 N -> D
+ 19 L -> V
+ 99 S -> T
+ 104 V -> I
+ 113 G -> D
+ 131 H -> Y
+ 132 W -> G
+ 150 N -> D
+ 151 I -> T
+ 152 V -> L
+ 193 D -> N
+ 200 R -> G
+ 272 A -> T
+ 276 W -> C
+ 316 F -> Y
+ 337 C -> Y
+ 350 V -> F
+ 357 A -> V
+ 360 N -> Y
+ 418 T -> A
+ 441 P -> L
+ 496 K -> I
+ 528 K -> R
+ 578 S -> R
+ 620 S -> R
+ 712 V -> E
+ 724 M -> I
+ 734 S -> N
+ 737 V -> A
+ 738 I -> V
+ 797 E -> Q
+ 802 L -> S
+ 834 A -> V
+ 836 G -> D
+ 846 L -> Q
+ 866 H -> L
+ 898 S -> N
+ 915 W -> R
+ 918 S -> P
+ 933 A -> T
+ 942 R -> Q
+ 945 M -> I
+ 985 A -> T
+ 1004 L -> F
+ 1011 L -> S
+ 1017 Q -> H
+ 1020 L -> Q
+ 1058 V -> G
+ 1112 M -> L
+ 1123 S -> T
+ 529..529 insertion
+ 548..548 deletion
+ 769..770 insertion
+ 847..852 deletion
+ 890..890 deletion
+ 907..909 insertion
+ 1005..1006 insertion
+ 1009..1009 insertion
+
+branch Spermophilus_tridecemlineatus_2
+ 93 S -> P
+ 96 Y -> H
+ 99 S -> P
+ 200 R -> L
+ 216 G -> S
+ 238 F -> V
+ 280 K -> E
+ 299 M -> I
+ 401 I -> M
+ 418 T -> I
+ 445 C -> Y
+ 451 E -> D
+ 470 V -> I
+ 500 W -> R
+ 502 L -> P
+ 627 T -> R
+ 690 N -> S
+ 692 I -> T
+ 797 E -> G
+ 856 K -> E
+ 906 S -> L
+ 921 L -> F
+ 928 L -> M
+ 986 S -> G
+ 1031 L -> I
+ 1032 Q -> H
+ 1053 I -> T
+ 1063 P -> A
+ 1124 K -> R
+ 83..84 insertion
+ 105..106 deletion
+ 338..339 insertion
+ 349..350 deletion
+ 377..380 deletion
+ 421..421 insertion
+ 667..671 deletion
+ 722..725 deletion
+ 798..800 insertion
+ 1127..1129 deletion
+
+branch Cavia_porcellus_2
+ 1 R -> S
+ 18 N -> K
+ 98 N -> D
+ 121 T -> I
+ 124 A -> V
+ 191 G -> R
+ 198 R -> Q
+ 214 T -> A
+ 218 S -> W
+ 239 F -> V
+ 240 S -> Y
+ 252 C -> G
+ 278 M -> I
+ 329 V -> G
+ 340 A -> V
+ 346 A -> V
+ 377 Q -> H
+ 397 L -> S
+ 414 V -> G
+ 416 F -> S
+ 426 E -> D
+ 453 P -> S
+ 489 R -> K
+ 497 I -> N
+ 526 G -> E
+ 528 K -> Q
+ 530 H -> L
+ 547 R -> E
+ 579 L -> F
+ 620 S -> N
+ 629 V -> F
+ 681 T -> P
+ 708 Y -> D
+ 734 S -> G
+ 749 S -> P
+ 778 Y -> H
+ 788 R -> W
+ 797 E -> Q
+ 801 S -> R
+ 807 L -> V
+ 852 L -> S
+ 914 I -> T
+ 945 M -> I
+ 986 S -> C
+ 1035 P -> H
+ 1044 Y -> H
+ 1060 G -> C
+ 1135 L -> S
+ 122..123 insertion
+ 212..212 insertion
+ 235..237 insertion
+ 433..433 insertion
+ 646..648 insertion
+ 667..671 deletion
+ 822..822 insertion
+ 1127..1129 deletion
+
+branch Oryctolagus_cuniculus_2
+ 7 I -> F
+ 81 R -> K
+ 92 S -> R
+ 129 T -> M
+ 263 W -> C
+ 314 D -> N
+ 353 P -> A
+ 357 A -> C
+ 505 K -> N
+ 530 H -> P
+ 547 R -> Q
+ 573 N -> S
+ 576 G -> R
+ 626 P -> A
+ 681 T -> A
+ 708 Y -> D
+ 713 A -> V
+ 738 I -> V
+ 780 S -> A
+ 828 R -> Q
+ 836 G -> R
+ 851 P -> L
+ 903 A -> S
+ 904 A -> S
+ 905 L -> C
+ 906 S -> T
+ 911 E -> D
+ 913 P -> L
+ 914 I -> N
+ 916 Y -> D
+ 932 G -> R
+ 936 I -> T
+ 1032 Q -> E
+ 1061 L -> Q
+ 1064 L -> R
+ 1109 L -> S
+ 293..294 deletion
+ 442..464 deletion
+ 524..525 insertion
+ 831..832 deletion
+ 943..943 insertion
+ 1132..1132 insertion
+
+branch Ochotona_princeps_2
+ 58 A -> S
+ 80 T -> N
+ 81 R -> G
+ 105 D -> G
+ 124 A -> S
+ 127 A -> T
+ 134 V -> E
+ 147 T -> A
+ 197 A -> V
+ 244 R -> L
+ 275 A -> V
+ 308 K -> E
+ 324 R -> T
+ 357 A -> G
+ 375 D -> V
+ 577 R -> T
+ 582 A -> V
+ 623 L -> P
+ 649 R -> S
+ 688 R -> S
+ 730 F -> L
+ 758 Q -> L
+ 808 F -> L
+ 823 Q -> P
+ 835 R -> M
+ 848 K -> M
+ 866 H -> N
+ 873 H -> R
+ 878 F -> L
+ 885 V -> E
+ 905 L -> Y
+ 911 E -> G
+ 939 W -> C
+ 944 W -> C
+ 946 L -> I
+ 1007 M -> T
+ 1010 I -> M
+ 1053 I -> T
+ 1113 S -> F
+ 1114 R -> L
+ 1135 L -> S
+ 6..6 deletion
+ 99..99 deletion
+ 107..107 deletion
+ 251..252 deletion
+ 419..419 deletion
+ 491..493 deletion
+ 625..625 deletion
+ 689..693 deletion
+ 698..716 deletion
+ 830..830 deletion
+ 853..853 insertion
+ 888..899 deletion
+ 1032..1034 deletion
+
+branch Vicugna_pacos
+ 5 I -> S
+ 15 H -> R
+ 78 R -> S
+ 90 S -> P
+ 158 I -> V
+ 161 D -> H
+ 172 N -> S
+ 199 L -> I
+ 260 S -> F
+ 271 V -> G
+ 346 A -> V
+ 360 N -> D
+ 412 N -> H
+ 470 V -> M
+ 496 K -> R
+ 506 C -> R
+ 577 R -> G
+ 598 S -> T
+ 690 N -> S
+ 734 S -> R
+ 738 I -> R
+ 746 R -> T
+ 807 L -> P
+ 914 I -> T
+ 918 S -> L
+ 931 R -> C
+ 1008 T -> S
+ 1011 L -> F
+ 1012 L -> F
+ 1013 T -> A
+ 380..385 deletion
+ 541..544 insertion
+ 833..848 deletion
+ 886..887 insertion
+ 910..910 deletion
+
+branch Tursiops_truncatus
+ 50 L -> F
+ 81 R -> T
+ 110 T -> A
+ 203 R -> H
+ 389 R -> G
+ 415 G -> R
+ 439 H -> R
+ 620 R -> L
+ 741 S -> Y
+ 742 G -> A
+ 827 R -> G
+ 921 L -> F
+ 949 F -> L
+ 1014 M -> T
+ 1114 R -> H
+ 164..164 deletion
+ 283..283 insertion
+ 299..314 deletion
+ 413..413 insertion
+
+branch Bos_taurus
+ 147 T -> A
+ 151 I -> V
+ 164 I -> T
+ 234 L -> F
+ 238 F -> L
+ 464 S -> C
+ 707 T -> K
+ 828 R -> Q
+ 1013 T -> N
+ 1110 A -> T
+ 92..92 deletion
+ 613..613 insertion
+ 735..735 insertion
+ 1137..1137 insertion
+
+branch Ovis_aries
+ 233 Y -> H
+ 282 S -> P
+ 305 S -> T
+ 308 K -> R
+ 314 D -> N
+ 469 L -> P
+ 521 H -> Y
+ 549 N -> D
+ 596 A -> T
+ 622 I -> T
+ 629 V -> A
+ 698 S -> L
+ 775 V -> G
+ 792 R -> T
+ 904 A -> T
+ 905 L -> P
+ 918 S -> F
+ 1059 N -> I
+ 442..442 deletion
+ 494..494 insertion
+ 727..728 insertion
+ 801..810 deletion
+ 834..834 deletion
+
+branch Sus_scrofa
+ 6 I -> V
+ 26 S -> A
+ 96 Y -> H
+ 108 W -> R
+ 112 V -> M
+ 130 S -> A
+ 131 H -> N
+ 135 P -> H
+ 157 F -> Y
+ 158 I -> L
+ 163 Y -> S
+ 166 G -> D
+ 190 S -> L
+ 271 V -> A
+ 342 V -> A
+ 445 C -> S
+ 495 S -> G
+ 547 R -> Q
+ 596 A -> T
+ 645 L -> M
+ 713 A -> G
+ 719 H -> N
+ 732 A -> S
+ 944 W -> R
+ 986 S -> N
+ 1013 T -> A
+ 1054 P -> S
+ 1090 Q -> R
+ 1110 A -> T
+ 865..865 insertion
+
+branch Equus_caballus
+ 8 A -> S
+ 58 P -> T
+ 60 V -> M
+ 76 Q -> K
+ 93 S -> P
+ 111 G -> S
+ 119 F -> V
+ 151 I -> M
+ 164 I -> T
+ 225 K -> M
+ 239 F -> Y
+ 264 A -> V
+ 387 R -> Q
+ 414 V -> I
+ 506 C -> R
+ 526 G -> E
+ 679 D -> Y
+ 689 T -> I
+ 729 R -> S
+ 736 N -> K
+ 742 G -> S
+ 807 L -> V
+ 819 G -> D
+ 854 G -> E
+ 866 H -> N
+ 890 T -> S
+ 911 E -> V
+ 1004 L -> S
+ 1114 R -> C
+ 1123 S -> P
+ 1136 N -> D
+ 304..304 insertion
+ 376..376 deletion
+ 491..491 deletion
+ 833..843 deletion
+ 846..846 deletion
+ 905..905 deletion
+ 1121..1121 insertion
+
+branch Felis_catus
+ 20 L -> V
+ 26 S -> P
+ 50 L -> P
+ 93 S -> F
+ 121 T -> A
+ 145 P -> S
+ 213 G -> V
+ 219 Q -> H
+ 244 R -> P
+ 250 V -> L
+ 261 S -> I
+ 294 C -> R
+ 324 R -> S
+ 350 V -> G
+ 352 R -> S
+ 442 S -> F
+ 500 W -> L
+ 530 H -> Y
+ 531 K -> R
+ 545 K -> Q
+ 563 G -> A
+ 580 P -> T
+ 620 R -> K
+ 626 P -> T
+ 686 M -> V
+ 711 W -> C
+ 736 N -> D
+ 780 S -> W
+ 830 W -> L
+ 905 L -> V
+ 945 M -> T
+ 1008 T -> A
+ 1011 L -> S
+ 1090 Q -> H
+ 49..49 deletion
+ 533..533 insertion
+ 633..637 insertion
+ 855..855 insertion
+
+branch Ailuropoda_melanoleuca
+ 92 S -> N
+ 135 P -> S
+ 225 K -> N
+ 299 M -> L
+ 342 V -> L
+ 375 D -> G
+ 715 D -> A
+ 741 S -> P
+ 802 L -> M
+ 848 K -> R
+
+branch Canis_familiaris
+ 132 W -> L
+ 193 D -> G
+ 195 N -> K
+ 275 V -> E
+ 284 I -> F
+ 437 R -> K
+ 470 V -> G
+ 526 G -> R
+ 534 P -> H
+ 552 V -> A
+ 596 A -> V
+ 666 A -> V
+ 713 A -> V
+ 718 S -> D
+ 857 S -> F
+ 885 V -> G
+ 945 M -> L
+ 1035 P -> A
+ 231..239 deletion
+ 310..318 deletion
+ 879..883 insertion
+ 900..902 insertion
+
+branch Myotis_lucifugus
+ 78 R -> S
+ 90 T -> I
+ 145 P -> T
+ 151 I -> C
+ 164 I -> V
+ 165 H -> Q
+ 213 G -> S
+ 227 M -> L
+ 232 T -> I
+ 285 V -> A
+ 342 V -> G
+ 349 H -> Y
+ 473 P -> H
+ 518 P -> L
+ 625 G -> R
+ 628 H -> Q
+ 708 Y -> C
+ 754 S -> P
+ 768 G -> D
+ 796 R -> H
+ 846 L -> Q
+ 847 E -> K
+ 890 T -> A
+ 910 S -> P
+ 922 R -> C
+ 933 A -> T
+ 944 W -> S
+ 947 R -> G
+ 965 H -> P
+ 1008 T -> S
+ 1015 Y -> D
+ 1056 V -> M
+ 1115 P -> T
+ 1117 L -> S
+ 1120 K -> N
+ 1131 L -> F
+ 61..67 insertion
+ 86..87 insertion
+ 94..94 deletion
+ 173..187 insertion
+ 452..452 deletion
+ 553..553 insertion
+ 919..919 insertion
+ 973..973 insertion
+ 991..1003 insertion
+
+branch Pteropus_vampyrus
+ 5 I -> V
+ 20 L -> I
+ 51 A -> T
+ 56 L -> Q
+ 58 P -> T
+ 96 Y -> H
+ 99 S -> P
+ 130 S -> F
+ 135 P -> L
+ 137 T -> S
+ 203 R -> H
+ 219 Q -> R
+ 238 F -> I
+ 250 V -> L
+ 357 A -> G
+ 377 Q -> R
+ 425 A -> D
+ 428 D -> G
+ 437 R -> K
+ 496 K -> I
+ 497 M -> I
+ 536 K -> R
+ 539 V -> T
+ 563 G -> R
+ 578 S -> I
+ 612 V -> D
+ 685 V -> I
+ 730 F -> L
+ 737 V -> L
+ 747 S -> C
+ 878 F -> L
+ 939 W -> C
+ 960 W -> L
+ 1016 P -> R
+ 1035 P -> S
+ 1062 S -> P
+ 1138 D -> H
+ 273..273 insertion
+ 444..444 insertion
+ 550..550 insertion
+ 1022..1030 insertion
+ 1037..1037 insertion
+
+branch Erinaceus_europaeus
+ 88 R -> P
+ 92 S -> T
+ 129 T -> M
+ 132 W -> G
+ 134 V -> A
+ 135 P -> S
+ 153 L -> P
+ 197 A -> E
+ 213 G -> E
+ 219 Q -> R
+ 241 P -> R
+ 264 A -> T
+ 306 P -> L
+ 314 D -> E
+ 317 S -> C
+ 345 F -> I
+ 496 K -> R
+ 538 P -> A
+ 598 S -> Y
+ 619 Q -> L
+ 629 V -> I
+ 677 Y -> H
+ 684 E -> D
+ 686 M -> T
+ 692 I -> R
+ 713 A -> V
+ 738 I -> L
+ 757 R -> G
+ 782 S -> R
+ 794 L -> F
+ 807 L -> P
+ 810 V -> A
+ 856 K -> E
+ 859 L -> V
+ 898 R -> C
+ 904 A -> P
+ 915 W -> G
+ 926 Y -> S
+ 965 H -> Q
+ 971 Y -> A
+ 986 S -> I
+ 1004 L -> F
+ 1044 Y -> S
+ 1045 D -> N
+ 1055 R -> Q
+ 1061 L -> R
+ 1136 N -> S
+ 58..69 deletion
+ 72..75 insertion
+ 106..126 deletion
+ 224..224 insertion
+ 285..293 deletion
+ 638..640 deletion
+ 725..725 deletion
+ 837..841 insertion
+ 884..884 insertion
+ 1111..1112 deletion
+
+branch Sorex_araneus
+ 8 A -> E
+ 18 N -> D
+ 29 V -> F
+ 47 A -> G
+ 49 V -> M
+ 101 W -> R
+ 105 D -> V
+ 111 G -> S
+ 114 P -> T
+ 119 F -> L
+ 120 R -> Q
+ 127 A -> S
+ 152 V -> E
+ 163 Y -> S
+ 189 S -> V
+ 190 S -> L
+ 195 N -> D
+ 203 R -> H
+ 216 G -> L
+ 223 A -> L
+ 240 S -> P
+ 242 V -> I
+ 278 M -> L
+ 285 V -> A
+ 294 C -> R
+ 297 R -> G
+ 315 I -> V
+ 316 F -> L
+ 337 S -> Y
+ 350 D -> G
+ 358 S -> F
+ 361 G -> R
+ 415 G -> E
+ 435 G -> V
+ 437 R -> S
+ 464 S -> R
+ 469 L -> Q
+ 470 V -> G
+ 530 H -> Y
+ 552 V -> M
+ 577 R -> G
+ 597 S -> I
+ 679 D -> N
+ 682 L -> F
+ 685 V -> I
+ 708 Y -> C
+ 717 L -> R
+ 738 I -> F
+ 762 L -> Q
+ 793 N -> S
+ 807 L -> F
+ 819 G -> D
+ 844 G -> R
+ 847 E -> G
+ 866 H -> Q
+ 868 T -> S
+ 869 K -> N
+ 885 V -> A
+ 888 R -> C
+ 928 L -> P
+ 932 R -> H
+ 936 I -> T
+ 940 Q -> P
+ 944 W -> C
+ 945 M -> K
+ 949 F -> L
+ 1044 Y -> H
+ 1056 V -> M
+ 1060 G -> E
+ 1063 P -> T
+ 1067 A -> T
+ 1089 L -> P
+ 147..147 deletion
+ 254..259 insertion
+ 649..649 deletion
+ 788..788 deletion
+ 958..965 deletion
+ 1133..1134 insertion
+
+branch Loxodonta_africana
+ 58 P -> T
+ 165 H -> Y
+ 287 A -> T
+ 340 A -> T
+ 345 F -> L
+ 361 G -> R
+ 427 S -> F
+ 502 L -> P
+ 528 K -> N
+ 536 K -> E
+ 572 L -> P
+ 582 A -> D
+ 678 I -> V
+ 793 N -> I
+ 819 G -> C
+ 833 Q -> H
+ 878 F -> V
+ 904 A -> T
+ 945 M -> L
+ 972 R -> S
+ 1053 I -> S
+ 1055 R -> P
+ 503..504 insertion
+ 1089..1108 deletion
+ 1124..1124 deletion
+
+branch Procavia_capensis
+ 79 D -> G
+ 109 S -> P
+ 126 S -> A
+ 151 I -> V
+ 218 S -> A
+ 287 A -> G
+ 316 F -> L
+ 318 L -> P
+ 342 V -> I
+ 354 P -> S
+ 412 N -> S
+ 427 S -> P
+ 428 D -> N
+ 545 K -> R
+ 546 R -> G
+ 573 N -> H
+ 596 A -> V
+ 678 I -> R
+ 688 S -> I
+ 707 T -> M
+ 732 A -> V
+ 754 S -> A
+ 765 R -> C
+ 843 R -> S
+ 844 G -> R
+ 863 K -> T
+ 903 A -> V
+ 916 Y -> H
+ 946 L -> F
+ 960 W -> L
+ 971 Y -> C
+ 1032 Q -> R
+ 1120 K -> E
+ 1136 N -> S
+ 278..281 deletion
+ 330..336 insertion
+ 507..517 insertion
+ 641..644 insertion
+ 744..745 insertion
+ 759..761 insertion
+
+branch Echinops_telfairi
+ 6 I -> T
+ 7 I -> F
+ 47 T -> I
+ 109 S -> P
+ 111 G -> D
+ 124 A -> G
+ 125 L -> P
+ 132 W -> D
+ 137 T -> I
+ 145 P -> R
+ 150 N -> D
+ 157 F -> V
+ 158 I -> T
+ 164 I -> M
+ 168 G -> W
+ 193 Y -> C
+ 232 T -> R
+ 233 Y -> H
+ 244 R -> P
+ 284 I -> M
+ 316 F -> V
+ 342 V -> D
+ 377 Q -> H
+ 415 G -> E
+ 417 P -> R
+ 453 P -> H
+ 464 S -> N
+ 469 L -> V
+ 496 K -> N
+ 505 K -> N
+ 506 C -> R
+ 522 Y -> C
+ 538 P -> L
+ 539 V -> A
+ 612 I -> T
+ 626 P -> T
+ 628 H -> R
+ 686 M -> L
+ 687 F -> S
+ 716 I -> S
+ 719 H -> Y
+ 724 M -> V
+ 725 I -> L
+ 734 S -> G
+ 746 R -> T
+ 749 S -> L
+ 758 Q -> E
+ 765 R -> H
+ 790 Q -> R
+ 791 L -> P
+ 792 R -> K
+ 797 E -> G
+ 801 S -> R
+ 805 A -> P
+ 832 V -> A
+ 836 G -> S
+ 844 G -> R
+ 856 N -> Y
+ 857 S -> T
+ 905 L -> I
+ 914 I -> V
+ 922 R -> C
+ 928 L -> R
+ 931 R -> H
+ 949 F -> S
+ 984 P -> Q
+ 986 S -> R
+ 1012 L -> F
+ 1013 T -> I
+ 1016 P -> A
+ 1044 Y -> C
+ 1053 I -> L
+ 1055 R -> Q
+ 1058 V -> M
+ 1059 S -> N
+ 1092 Y -> C
+ 1..1 deletion (terminal)
+ 92..106 deletion
+ 222..222 deletion
+ 231..231 deletion
+ 298..298 insertion
+ 390..396 insertion
+ 440..440 insertion
+ 455..463 insertion
+ 624..624 insertion
+ 731..731 insertion
+ 755..756 insertion
+ 951..957 insertion
+ 974..982 insertion
+ 1106..1108 deletion
+ 1113..1120 deletion
+
+branch Dasypus_novemcinctus
+ 5 I -> T
+ 8 A -> G
+ 51 A -> T
+ 92 S -> G
+ 114 P -> L
+ 132 W -> R
+ 133 Q -> L
+ 193 D -> N
+ 232 T -> K
+ 297 R -> G
+ 306 P -> L
+ 324 R -> K
+ 342 V -> A
+ 345 F -> S
+ 428 D -> N
+ 531 R -> K
+ 538 P -> L
+ 582 A -> P
+ 666 A -> G
+ 677 Y -> N
+ 718 G -> V
+ 778 Y -> H
+ 796 R -> L
+ 827 R -> S
+ 846 L -> V
+ 920 Y -> H
+ 965 H -> D
+ 1010 I -> N
+ 1034 Y -> H
+ 1054 P -> S
+ 1120 K -> Q
+ 100..100 insertion
+ 198..203 deletion
+ 472..472 insertion
+ 493..493 deletion
+
+branch Choloepus_hoffmanni
+ 94 Y -> H
+ 120 R -> P
+ 241 P -> T
+ 285 V -> D
+ 420 G -> R
+ 497 I -> S
+ 521 H -> R
+ 579 L -> S
+ 733 T -> I
+ 765 R -> S
+ 768 C -> F
+ 873 H -> R
+ 885 V -> M
+ 1092 Y -> S
+ 8..9 deletion
+ 131..134 deletion
+ 238..238 deletion
+ 307..307 insertion
+ 363..374 insertion
+ 376..389 deletion
+ 422..429 deletion
+ 565..571 insertion
+ 664..665 insertion
+ 709..709 insertion
+ 793..797 deletion
+
+branch #1#
+ 85 S -> L
+ 318 L -> V
+ 345 F -> L
+ 596 A -> V
+ 792 R -> S
+ 810 V -> I
+ 7..11 deletion
+ 216..216 deletion
+ 539..545 deletion
+ 557..561 insertion
+
+branch #21#
+ 5 I -> T
+ 8 A -> V
+ 56 M -> T
+ 57 S -> P
+ 69 R -> K
+ 93 S -> P
+ 94 Y -> D
+ 96 Y -> D
+ 98 T -> A
+ 120 R -> Q
+ 127 A -> P
+ 135 P -> H
+ 157 F -> S
+ 161 D -> N
+ 193 D -> E
+ 195 N -> D
+ 216 G -> S
+ 217 A -> E
+ 218 S -> A
+ 260 S -> P
+ 264 S -> L
+ 274 P -> L
+ 276 W -> C
+ 312 R -> H
+ 315 I -> T
+ 349 D -> G
+ 350 V -> A
+ 353 P -> L
+ 361 G -> D
+ 383 D -> N
+ 437 R -> T
+ 451 G -> A
+ 453 P -> S
+ 471 Q -> K
+ 496 K -> E
+ 499 L -> V
+ 531 R -> S
+ 548 S -> N
+ 621 M -> V
+ 663 S -> C
+ 666 A -> G
+ 678 I -> K
+ 689 T -> A
+ 692 I -> L
+ 713 A -> T
+ 732 A -> V
+ 734 S -> R
+ 736 N -> S
+ 737 E -> G
+ 807 L -> F
+ 823 Q -> P
+ 835 R -> M
+ 846 L -> V
+ 847 E -> K
+ 872 E -> A
+ 910 S -> T
+ 922 C -> F
+ 933 A -> G
+ 944 W -> R
+ 1007 M -> T
+ 1032 Q -> H
+ 1067 A -> D
+ 468..468 insertion
+ 492..495 deletion
+ 554..562 insertion
+ 870..870 deletion
+ 1038..1043 insertion
+
+branch #31#
+ 98 N -> T
+ 132 W -> R
+ 150 N -> S
+ 165 H -> Q
+ 172 N -> K
+ 188 E -> G
+ 227 M -> L
+ 299 M -> L
+ 349 H -> D
+ 352 R -> G
+ 360 N -> D
+ 491 T -> A
+ 519 V -> A
+ 521 H -> R
+ 534 P -> S
+ 681 T -> A
+ 686 M -> T
+ 698 S -> L
+ 741 S -> L
+ 779 S -> L
+ 780 S -> L
+ 873 H -> R
+ 885 V -> L
+ 906 S -> L
+ 913 P -> S
+ 941 H -> R
+ 76..78 deletion
+ 417..434 deletion
+ 628..645 deletion
+ 772..775 deletion
+ 888..890 deletion
+
+branch #2#
+ 1 R -> W
+ 71 V -> K
+ 79 G -> D
+ 110 T -> S
+ 111 G -> R
+ 113 G -> C
+ 114 P -> S
+ 125 L -> P
+ 152 V -> L
+ 188 E -> G
+ 190 S -> P
+ 214 T -> A
+ 216 G -> A
+ 239 F -> C
+ 253 A -> P
+ 272 A -> T
+ 306 P -> A
+ 316 F -> S
+ 349 H -> Y
+ 434 I -> M
+ 445 S -> A
+ 521 H -> Q
+ 526 G -> R
+ 530 H -> Q
+ 596 A -> T
+ 678 I -> V
+ 689 T -> P
+ 698 S -> A
+ 708 Y -> C
+ 715 D -> V
+ 717 L -> R
+ 718 G -> S
+ 749 S -> T
+ 765 R -> H
+ 802 L -> V
+ 843 R -> K
+ 845 R -> W
+ 847 E -> V
+ 874 A -> T
+ 885 V -> L
+ 916 Y -> D
+ 918 S -> A
+ 921 L -> S
+ 965 H -> Y
+ 971 Y -> D
+ 972 R -> S
+ 1007 M -> I
+ 1012 L -> V
+ 1014 L -> W
+ 1109 L -> F
+ 1111 L -> Q
+ 85..92 deletion
+ 159..160 insertion
+ 250..250 deletion
+ 381..381 insertion
+ 474..474 insertion
+ 699..706 insertion
+ 806..806 insertion
+ 834..834 deletion
+ 876..876 deletion
+
+branch #22#
+ 189 S -> T
+ 528 K -> N
+ 688 R -> G
+ 279..279 insertion
+ 451..451 deletion
+ 940..940 deletion
+ 1057..1057 insertion
+ 1058..1058 deletion
+
+branch #32#
+ 131 H -> Q
+ 324 R -> W
+ 434 S -> I
+
+branch #40#
+ 493 V -> A
+ 627 T -> R
+ 869 K -> R
+ 926 Y -> D
+ 1054 P -> A
+ 1064 L -> P
+ 1115 P -> T
+ 318..318 deletion
+
+branch #3#
+ 10 V -> S
+ 30 T -> M
+ 43 L -> F
+ 50 L -> P
+ 92 S -> G
+ 131 H -> N
+ 138 R -> Q
+ 164 I -> S
+ 165 H -> D
+ 197 A -> V
+ 199 L -> P
+ 216 G -> Y
+ 238 F -> L
+ 241 P -> Q
+ 249 A -> E
+ 250 V -> L
+ 260 S -> F
+ 278 M -> K
+ 287 A -> V
+ 299 M -> T
+ 308 K -> E
+ 313 S -> N
+ 314 D -> V
+ 318 L -> R
+ 354 P -> L
+ 388 I -> V
+ 419 Y -> H
+ 428 D -> Y
+ 496 K -> M
+ 545 K -> R
+ 549 N -> T
+ 579 L -> S
+ 684 V -> I
+ 697 I -> R
+ 715 D -> N
+ 716 I -> F
+ 737 V -> A
+ 831 A -> D
+ 844 G -> E
+ 845 R -> G
+ 864 W -> R
+ 876 G -> D
+ 904 A -> T
+ 914 I -> T
+ 941 H -> Y
+ 961 A -> V
+ 1017 Q -> R
+ 1021 I -> T
+ 1104 F -> C
+ 1105 Q -> P
+ 1106 S -> P
+ 1124 K -> E
+ 35..36 insertion
+ 217..219 deletion
+ 441..441 deletion
+ 490..492 deletion
+ 1093..1103 insertion
+
+branch #23#
+ 102 A -> G
+ 262 Q -> R
+ 312 R -> C
+ 380 L -> S
+ 754 S -> A
+ 898 S -> N
+ 987 G -> D
+ 1092 Y -> F
+ 596..596 deletion
+
+branch #33#
+ 51 A -> T
+ 317 S -> C
+ 337 C -> R
+ 361 G -> R
+ 412 N -> I
+ 434 S -> T
+ 551 L -> M
+ 564 V -> D
+ 734 S -> N
+ 852 L -> W
+ 30..42 insertion
+ 493..493 deletion
+
+branch #4#
+ 10 V -> L
+ 11 V -> I
+ 18 N -> S
+ 48 M -> I
+ 102 A -> S
+ 150 N -> K
+ 223 A -> V
+ 271 V -> D
+ 275 A -> P
+ 276 W -> C
+ 285 V -> L
+ 287 A -> V
+ 362 V -> L
+ 426 E -> A
+ 439 H -> D
+ 470 V -> A
+ 493 V -> A
+ 535 P -> S
+ 552 V -> A
+ 578 S -> G
+ 598 S -> T
+ 622 I -> V
+ 625 G -> D
+ 628 H -> N
+ 649 R -> K
+ 677 Y -> H
+ 685 V -> D
+ 737 V -> L
+ 778 Y -> H
+ 811 P -> L
+ 852 L -> S
+ 898 S -> R
+ 928 L -> H
+ 939 W -> S
+ 947 R -> H
+ 1031 L -> I
+ 1056 V -> M
+ 1059 S -> G
+ 1060 G -> S
+ 1120 K -> R
+ 316..316 deletion
+ 341..341 insertion
+ 877..877 insertion
+ 891..891 insertion
+ 923..925 deletion
+ 1058..1058 deletion
+ 1104..1104 deletion
+
+branch #41#
+ 924..925 insertion
+
+branch #47#
+ 435 G -> R
+ 157..161 deletion
+ 923..923 insertion
+
+branch #5#
+ 106 S -> P
+ 157 F -> I
+ 188 E -> D
+ 234 L -> S
+ 275 A -> P
+ 280 K -> Q
+ 308 K -> E
+ 329 V -> R
+ 375 D -> V
+ 383 D -> G
+ 416 F -> L
+ 437 R -> W
+ 439 H -> Q
+ 453 P -> T
+ 490 R -> L
+ 523 L -> P
+ 622 I -> V
+ 663 S -> L
+ 778 Y -> C
+ 788 R -> Q
+ 836 G -> D
+ 863 K -> E
+ 869 K -> R
+ 972 R -> S
+ 1007 M -> V
+ 70..70 insertion
+ 107..107 deletion
+ 132..135 deletion
+ 269..270 insertion
+ 476..486 insertion
+
+branch #55#
+ 6 I -> V
+ 442 S -> P
+ 779 S -> L
+ 833 Q -> H
+
+branch #24#
+ 59 D -> E
+ 113 G -> V
+
+branch #34#
+ 538 P -> T
+ 797 E -> D
+
+branch #42#
+ 573 N -> S
+
+branch #7#
+ 88 R -> Q
+ 151 I -> L
+ 161 D -> G
+ 272 A -> S
+ 345 F -> S
+ 548 S -> N
+ 579 L -> F
+ 629 V -> I
+ 666 A -> T
+ 679 D -> H
+ 747 S -> T
+ 1123 L -> F
+ 719..719 deletion
+
+branch #48#
+ 496 K -> R
+ 734 S -> G
+ 743..743 insertion
+ 831..831 deletion
+
+branch #52#
+ 7 I -> L
+ 10 V -> A
+ 50 L -> V
+ 90 T -> A
+ 102 A -> V
+ 132 W -> R
+ 220 R -> G
+ 241 P -> R
+ 250 V -> I
+ 263 W -> L
+ 287 A -> V
+ 297 R -> S
+ 316 F -> L
+ 672 G -> D
+ 736 N -> T
+ 791 L -> R
+ 876 G -> S
+ 1106 S -> Y
+ 1120 K -> I
+ 126..127 deletion
+ 148..149 insertion
+ 205..211 insertion
+ 889..889 insertion
+ 899..903 deletion
+
+branch #56#
+ 596 A -> P
+
+branch #8#
+ 48 M -> V
+ 92 S -> N
+ 166 A -> D
+ 348 G -> V
+ 724 M -> T
+ 808 F -> S
+ 844 G -> S
+ 942 R -> G
+ 19..19 deletion
+ 354..354 deletion
+ 860..861 insertion
+ 1012..1017 deletion
+
+branch #58#
+ 158 I -> V
+ 471 Q -> L
+ 856 K -> R
+
+branch #60#
+ 445 S -> T
+ 518 P -> T
+ 718 G -> A
+ 1123 S -> L
+
+branch #62#
+ 79 D -> G
+ 445 C -> S
+ 1107 P -> H
+
+branch #9#
+ 577 R -> K
+
+branch #25#
+ 189 S -> P
+ 215 T -> I
+ 439 H -> Y
+ 928 L -> H
+ 297..297 deletion
+
+branch #35#
+ 69 R -> K
+ 630 M -> V
+ 730 F -> L
+
+branch #43#
+ 98 N -> S
+ 231 S -> F
+ 546 R -> L
+ 564 V -> L
+ 922 R -> G
+
+branch #10#
+ 315 I -> N
+ 387 R -> L
+ 580 P -> S
+ 690 N -> D
+ 723 S -> T
+ 729 R -> G
+ 741 S -> F
+ 1092 Y -> H
+ 103..103 insertion
+ 502..502 deletion
+ 737..738 deletion
+ 946..946 deletion
+
+branch #49#
+ 121 T -> N
+ 828 R -> Q
+
+branch #53#
+ 105 D -> Y
+ 132 W -> C
+ 166 A -> V
+ 222 A -> T
+ 238 F -> L
+ 299 M -> R
+ 313 S -> V
+ 397 L -> S
+ 426 E -> K
+ 441 P -> S
+ 622 I -> V
+ 779 S -> L
+ 835 R -> K
+ 864 W -> C
+ 873 H -> L
+ 898 S -> G
+ 936 I -> K
+ 949 F -> R
+ 583..592 insertion
+
+branch #11#
+ 6 I -> T
+ 401 I -> T
+ 545 K -> E
+ 598 S -> Y
+ 805 A -> V
+ 830 W -> C
+ 229..230 insertion
+ 521..530 deletion
+ 1087..1088 insertion
+
+branch #57#
+ 345 F -> L
+ 375 D -> A
+ 422 S -> P
+ 851 P -> S
+ 868 T -> M
+ 965 H -> R
+
+branch #59#
+ 1075..1086 insertion
+
+branch #12#
+ 6 I -> T
+ 7 I -> L
+ 29 V -> I
+ 49 V -> L
+ 56 L -> P
+ 59 D -> E
+ 80 T -> N
+ 81 R -> G
+ 92 S -> G
+ 108 W -> R
+ 109 S -> A
+ 121 T -> S
+ 129 T -> A
+ 193 D -> N
+ 242 A -> T
+ 264 A -> D
+ 276 W -> L
+ 305 S -> T
+ 312 R -> L
+ 346 A -> T
+ 357 A -> V
+ 382 L -> P
+ 388 I -> L
+ 427 S -> P
+ 437 R -> K
+ 445 C -> W
+ 473 P -> A
+ 500 W -> E
+ 528 K -> R
+ 539 V -> I
+ 546 R -> P
+ 552 V -> S
+ 564 V -> G
+ 597 S -> R
+ 622 I -> A
+ 649 R -> G
+ 663 S -> A
+ 669 L -> P
+ 671 L -> P
+ 678 I -> M
+ 679 D -> H
+ 682 L -> V
+ 693 R -> K
+ 711 W -> C
+ 722 G -> R
+ 738 I -> L
+ 782 S -> G
+ 790 Q -> R
+ 791 L -> W
+ 832 V -> E
+ 843 R -> S
+ 852 L -> S
+ 857 S -> P
+ 863 K -> I
+ 870 R -> Q
+ 932 G -> E
+ 1007 M -> I
+ 1015 Y -> C
+ 1020 L -> F
+ 1034 Y -> S
+ 1058 V -> G
+ 1108 L -> Q
+ 1120 K -> R
+ 1128 I -> K
+ 1138 D -> N
+ 349..349 deletion
+ 403..411 insertion
+ 492..492 deletion
+ 521..521 deletion
+ 577..577 deletion
+ 748..748 insertion
+ 824..826 insertion
+ 831..831 deletion
+ 844..844 deletion
+ 871..871 deletion
+ 1062..1062 deletion
+ 1066..1066 insertion
+ 1091..1091 insertion
+
+branch #13#
+ 6 I -> T
+
+branch #27#
+ 492..492 deletion
+ 521..521 deletion
+ 844..844 deletion
+
+branch #14#
+ 14 Q -> L
+ 101 W -> R
+ 131 H -> P
+ 150 N -> K
+ 200 R -> P
+ 220 R -> K
+ 271 V -> A
+ 306 P -> L
+ 313 S -> I
+ 345 F -> L
+ 359 T -> A
+ 487 I -> M
+ 549 H -> N
+ 629 V -> I
+ 645 L -> P
+ 843 R -> I
+ 986 S -> N
+ 1021 I -> T
+ 1106 S -> F
+ 356..356 insertion
+ 446..450 insertion
+ 595..595 insertion
+ 667..678 deletion
+ 875..875 insertion
+ 921..922 deletion
+ 1127..1129 deletion
+
+branch #44#
+ 194 G -> E
+ 242 V -> A
+ 549 N -> H
+ 598 S -> T
+ 876 G -> R
+ 153..190 deletion
+ 191..192 insertion
+ 498..498 deletion
+ 667..671 insertion
+ 1127..1129 insertion
+
+branch #61#
+ 58 P -> A
+ 71 V -> G
+ 114 P -> L
+ 317 S -> P
+ 428 D -> N
+ 451 G -> E
+ 620 R -> S
+ 693 G -> R
+ 972 R -> S
+
+branch #15#
+ 47 T -> A
+ 113 G -> D
+ 126 S -> A
+ 138 R -> P
+ 145 P -> S
+ 150 N -> D
+ 157 F -> L
+ 196 L -> P
+ 222 A -> T
+ 231 S -> Y
+ 342 V -> L
+ 349 H -> Q
+ 645 L -> M
+ 685 V -> I
+ 741 S -> P
+ 876 G -> D
+ 691..691 insertion
+ 809..809 insertion
+
+branch #28#
+ 80 T -> S
+ 104 V -> A
+ 232 T -> A
+ 910 S -> A
+ 306..306 deletion
+ 361..361 deletion
+ 625..625 deletion
+ 805..805 deletion
+
+branch #37#
+ 15 N -> H
+ 17 M -> L
+ 90 T -> S
+ 227 M -> R
+ 518 P -> S
+ 623 L -> R
+ 772 K -> N
+ 1014 L -> M
+ 8..8 deletion
+
+branch #45#
+ 519 V -> I
+ 692 I -> M
+ 1117 L -> F
+ 221..221 insertion
+ 863..863 deletion
+ 1112..1112 deletion
+
+branch #16#
+ 80 T -> S
+ 96 Y -> C
+ 106 S -> P
+ 125 L -> V
+ 362 V -> L
+ 401 I -> N
+ 538 P -> T
+ 663 S -> F
+ 718 G -> S
+ 859 L -> I
+ 869 K -> N
+ 931 R -> L
+ 949 F -> C
+ 965 H -> P
+ 324..326 deletion
+ 930..930 insertion
+ 1036..1036 insertion
+
+branch #29#
+ 19 L -> P
+ 46 L -> P
+ 49 V -> L
+ 239 F -> L
+ 242 V -> A
+ 275 A -> V
+ 377 Q -> E
+ 432 L -> P
+ 518 P -> R
+ 520 Y -> D
+ 535 P -> L
+ 539 V -> A
+ 546 R -> G
+ 577 R -> S
+ 581 L -> V
+ 712 V -> A
+ 779 S -> P
+ 903 A -> S
+ 926 Y -> H
+ 972 R -> G
+ 1065 D -> N
+ 56..58 deletion
+ 326..326 insertion
+ 358..358 deletion
+ 420..420 deletion
+ 439..439 deletion
+ 537..537 deletion
+
+branch #38#
+ 109 S -> P
+
+branch #17#
+ 18 N -> T
+ 60 V -> A
+ 114 P -> L
+ 420 G -> R
+ 491 T -> P
+ 549 N -> S
+ 697 I -> L
+ 768 C -> G
+ 873 H -> R
+ 1135 L -> F
+ 243..243 insertion
+ 382..385 deletion
+ 416..417 deletion
+
+branch #50#
+ 497 I -> M
+ 531 R -> K
+ 906 S -> A
+ 1059 S -> N
+ 17..17 insertion
+
+branch #18#
+ 47 T -> A
+ 220 R -> G
+ 227 M -> R
+ 250 V -> I
+ 299 M -> L
+ 349 H -> R
+ 350 V -> D
+ 389 R -> K
+ 420 G -> E
+ 428 D -> Y
+ 523 L -> F
+ 545 K -> N
+ 684 V -> E
+ 719 H -> D
+ 768 C -> Y
+ 827 R -> W
+ 914 I -> V
+ 921 L -> M
+ 932 G -> R
+ 1120 K -> N
+ 327..328 insertion
+ 612..612 deletion
+ 630..630 deletion
+ 638..640 insertion
+
+branch #54#
+ 166 A -> G
+ 202 P -> R
+ 337 C -> S
+ 714 R -> L
+ 898 S -> R
+ 941 H -> R
+ 1021 I -> V
+
+branch #64#
+ 264 S -> A
+ 864 R -> W
+ 984 P -> L
+ 1104 S -> F
+ 438..438 deletion
+ 939..940 insertion
+ 1114..1118 insertion
+
+branch #19#
+ 50 L -> V
+ 59 D -> V
+ 98 N -> S
+ 147 T -> S
+ 306 P -> L
+ 441 P -> T
+ 496 K -> D
+ 598 S -> Y
+ 885 V -> G
+ 1111 L -> P
+
+branch #30#
+ 76 Q -> R
+ 193 D -> Y
+ 197 A -> G
+ 275 A -> T
+ 681 T -> A
+ 688 R -> S
+ 736 N -> S
+ 845 R -> L
+ 965 H -> Q
+ 1004 L -> S
+ 5..5 deletion
+ 663..677 deletion
+ 762..762 deletion
+ 918..920 deletion
+
+branch #20#
+ 50 L -> R
+ 93 S -> P
+ 194 G -> E
+ 313 S -> R
+ 360 N -> D
+ 419 Y -> D
+ 434 S -> G
+ 438 A -> S
+ 805 A -> T
+ 844 G -> A
+ 847 E -> K
+ 905 L -> H
+ 163..163 deletion
+ 201..201 insertion
+ 872..872 deletion
+
+branch #39#
+ 49 V -> E
+ 101 W -> R
+ 216 G -> R
+ 612 V -> I
+ 856 K -> N
+ 250..261 deletion
+ 773..774 insertion
+ 920..920 insertion
+
+branch #65#
+ 18 H -> N
+ 56 M -> L
+ 102 V -> A
+ 107 P -> T
+ 121 S -> T
+ 147 K -> T
+ 166 V -> A
+ 168 A -> G
+ 171 T -> D
+ 190 P -> S
+ 222 T -> A
+ 272 S -> A
+ 308 R -> K
+ 313 R -> S
+ 337 W -> C
+ 415 R -> G
+ 438 V -> A
+ 454 M -> L
+ 470 E -> V
+ 526 E -> G
+ 528 R -> K
+ 549 H -> N
+ 581 P -> L
+ 627 R -> T
+ 677 C -> Y
+ 737 E -> V
+ 794 V -> L
+ 801 R -> S
+ 922 C -> R
+ 985 V -> A
+ 986 G -> S
+ 1013 N -> T
+ 1063 Q -> P
+ 12..12 deletion
+ 27..28 deletion
+ 398..400 deletion
+ 465..467 deletion
+ 527..527 deletion
+ 710..710 deletion
+

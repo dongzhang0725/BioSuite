@@ -1,0 +1,184 @@
+#NEXUS
+BEGIN DATA;
+dimensions ntax=15 nchar=615;
+format missing=?
+datatype=DNA gap= - interleave;
+
+matrix
+Benedenia_hoshinai atgatt---aataacattttattttactcttataaa---aatcaaattactaaattagta
+Benedenia_seriolae atgctt---aataacacaggtttaaaattttttaag---ttaaatttaacatatttagtt
+Echinococcus_equinus atgatt---gttgttaatgattttggttctttatta---agtcgggtttatgtgttggtg
+Gyrodactylus_derjavinoides atgatt------tttaaaagtagcgtaaattacata---ttaactaatataaagttaata
+Gyrodactylus_gurleyi atgatt------tttaatagcagtgttaattttata---ttatttagtattaagaatgta
+Gyrodactylus_kobayashii atgatt------tttaatagaagtgttaattttata---ttgttcagtataaagaaaata
+Gyrodactylus_salaris atgatt------tttaaaagtagaataaattaccta---ataaccaatactaagaaggct
+Gyrodactylus_thymalli atgatt------tttaaaagtagaataaattaccta---ataaccaatactaagaaggtt
+Microcotyle_sebastis ---------------------atgtcacgtttacag---actttattatttaaatatatg
+Neobenedenia_melleni atgcta---agtattaacaattttaaattcttatcaaataatgttatagaattattagta
+Paragyrodactylus_variegatus atgatt------tttaatagttacacaaattttatt---aagtttaatataattaattta
+Polylabris_halichoeres ---------------------atgtcacgttttaat---agtttgttatttaaatttaac
+Pseudochauhanea_macrorchis ---------------------atgtctcgtttaggt---gttgtattaagtcatttttat
+Taenia_saginata gtgtttaataatgttaatgattttagttctttaatg---attttgataaataagtttgtt
+Tetrancistrum_nebulosi atgttt---attattaaccgttttaattctttttct---tgccttgtaaagcctttagta
+
+Benedenia_hoshinai gacagt---ttgtctaataattataagctagtttgttttctattatctttaagattttta
+Benedenia_seriolae gatagt---ttatcttctctgtattatagagtttgtttagtgttatgctcattatttttg
+Echinococcus_equinus tttaagtgtgtgtcatattattatttcgttttattagtgttggttttgctgtggtttttg
+Gyrodactylus_derjavinoides ataaat---aacaaagtactgagcagaagtttgttatttatagttctatgtgagttcatg
+Gyrodactylus_gurleyi ataaaa---aacaagactctaagtagctttttattgttcttaatattaggtgagtttatt
+Gyrodactylus_kobayashii gtaaat---aacaaggtgcttagtagtttactgctaattcttattttaatggagtttatt
+Gyrodactylus_salaris ataaac---aacaacattcttagtagtaccctgttgttagggattctgttggagttcatt
+Gyrodactylus_thymalli ataaac---aacaatattcttagtagtaccctgttgttagggattctgttggagttcatt
+Microcotyle_sebastis aattga---caaagatttcattattcttattttacggtagcatgtgccatagtactggta
+Neobenedenia_melleni ccttat---ttatcaagtacctataatcgattaatgtttattttattcatttattttctt
+Paragyrodactylus_variegatus gttaat---aataatattttaagtttaagtttagtaaaaattatactttttatattttta
+Polylabris_halichoeres atatga---caaagttttcattattcttattttacttttatttgtgctggaactttaata
+Pseudochauhanea_macrorchis gtttta---cagtctttccattattcatattttactgtagtttgtgctgttgttttagtt
+Taenia_saginata ttaggtgatgttgtttattattattttggtgttttaggttgggttttatttttgttttta
+Tetrancistrum_nebulosi agtaaa---ttaggttctctctacaagagcgtttgcttaacccttttagtttgtttcctg
+
+Benedenia_hoshinai tctttacgtataccctatatt------tataaagtgttggagtttgtgggcttagttatt
+Benedenia_seriolae tgtttacgcgttccttacatt------tataatacattagattttataggtttcgtgttt
+Echinococcus_equinus ttatatcgtttgccatattgt------tataggttttatttgttttctgtttttttgtta
+Gyrodactylus_derjavinoides ttatatcgaatcccaggaata------ttcgatgtacattacttcatagtttttctattt
+Gyrodactylus_gurleyi ttatatcgtatcccaggtatt------tttgacattcattattttatagtttttttatta
+Gyrodactylus_kobayashii ttataccgtgttcctggtatt------tttgatgtacattattttataatttttttagta
+Gyrodactylus_salaris ctataccgcatccctggggtg------tttgatgcacattacttcatagtgttcctattg
+Gyrodactylus_thymalli ctataccgcatccctggggtg------tttgatgcacattacttcatagtgttcctattg
+Microcotyle_sebastis gtttcacaggtaccatacatatggaggtttaatgttatttatgtggtgataccgtttttg
+Neobenedenia_melleni ttattacgaatgccttatatt------tatagaagtatagcctttatgggagtgattatt
+Paragyrodactylus_variegatus ttatttcgtttcccaagaata------tttgatgtttattatttcataattttattattt
+Polylabris_halichoeres atatctcaggtaccatatatatgaagttttagtgttatatatgtcgtaataccattttta
+Pseudochauhanea_macrorchis ttatcacaggttccttacttttgaacgtttaaagtaatatatgttgttataccctttttg
+Taenia_saginata tgctatcgtttaccttattgt------tatagtccttttttatttgctgttattttagtt
+Tetrancistrum_nebulosi tatttacgcacccccttttta------tatggggtttcaggccttttactatatattttt
+
+Benedenia_hoshinai attttaatttttcctctttttattagtatctttcttagccgtattactttggggtttaat
+Benedenia_seriolae ataataatttttcctttatttataacaatcttttttaaacggatttttagaggtttaaat
+Echinococcus_equinus gtggtggtttttgtgatgtttgtgtcattgtttatgtgtcgtgtatctaatagagttaat
+Gyrodactylus_derjavinoides atagccctgttaccatactttattagtctgtttaccagacgagttaccaatgattgagaa
+Gyrodactylus_gurleyi cttttacttatcccatattttttaagcttatttgtaaatcgtgttgttagcgattgagaa
+Gyrodactylus_kobayashii gtactgcttcttccttattttataagcttattttctaaccgtgtagtaagggattgggaa
+Gyrodactylus_salaris gtagtactgttaccctactttatcaggctattcacaagacgagtggccatagactgcgaa
+Gyrodactylus_thymalli gtagtgctgttaccctactttatcaggctattcacaagacgagtggccatagactgcgaa
+Microcotyle_sebastis atgggtgttcgtcctttaggtttggctgcttat---------------aatcctgtgaaa
+Neobenedenia_melleni tgtgtgattagtcctttatttctttctatttttttaagtcgtatttgtacaggtctaaaa
+Paragyrodactylus_variegatus gttttattaatgccttattttttatctttatttttaagacgtattttgaataactcaaat
+Polylabris_halichoeres atgggtgttcgtcccttaggtttagcactatat---------------aaattattaaat
+Pseudochauhanea_macrorchis atgggggtacgtccgctaggaatcgcattttac---------------aacttggttaat
+Taenia_saginata agtgttgtgtttaggtgctttatttctttttttttaagtcgtgtttttgataaagtgaat
+Tetrancistrum_nebulosi attttgttagctcctatgttcgttagcttatttgtgggacggctagaaaaaggagtaaaa
+
+Benedenia_hoshinai agctttttttcttctttattaccccctggtactcct------------------------
+Benedenia_seriolae acttttttttcttctttactacctcctggtactcct------------------------
+Echinococcus_equinus aggttttttgctagttttattccgttaaggacgcct------------------------
+Gyrodactylus_derjavinoides gagttcttttgtagcttcaccccagtaggagctcct------------------------
+Gyrodactylus_gurleyi gagttcttttgtagttttacccctgttggggctcca------------------------
+Gyrodactylus_kobayashii gaatttttttgtaggtttacccctgttggagctcct------------------------
+Gyrodactylus_salaris gagttcctttgtagctttacaccagtaggtgctcca------------------------
+Gyrodactylus_thymalli gagttcctttgtagctttacaccagtaggtgctcca------------------------
+Microcotyle_sebastis ------tttgcaaagatactagttatatctattccaaaggagttaccatctttagcattc
+Neobenedenia_melleni gaatttttttcttccttattgccaccaggaactcct------------------------
+Paragyrodactylus_variegatus gagttctttgctagtttcactcctgttggtgctcct------------------------
+Polylabris_halichoeres ------tttataaagatacttgttatttctgttccaaaggagttgccttctgttgcattt
+Pseudochauhanea_macrorchis ------tttattaagatgctaataatgtccgttcctaaggagttaccttctgtagttttt
+Taenia_saginata ttattttttagttcgtttattcctgttggtactcct------------------------
+Tetrancistrum_nebulosi acctttttttcttctctcttgcctccagggaccccc------------------------
+
+Benedenia_hoshinai ---ttggctattgctccttttgtttgtctagccgagactataagttacatagttcgtccc
+Benedenia_seriolae ---ttgggtatagctccttttgtttgtttagctgaaacgattagttatttagttcgtcct
+Echinococcus_equinus ---ttatatatatgctttttagtgtgtgtggccgagtctataagttatattattcgtcct
+Gyrodactylus_derjavinoides ---atagttatagctccatttgtatgtatagctgaagggataagatacatagtacgtcca
+Gyrodactylus_gurleyi ---attgctattgctccttttgtttgtatagctgaagggattagttatatagttcgtcca
+Gyrodactylus_kobayashii ---ataggtattgctccttttgtatgtattgctgaaggtataagctatattgttcgtcct
+Gyrodactylus_salaris ---atagccatagcaccttttgtgtgtatagcagaaggggtcagttacgtagtacggccg
+Gyrodactylus_thymalli ---atagccatagcaccttttgtgtgtatagcagaaggggtcagttacgtagtacgtccg
+Microcotyle_sebastis tctgttgtaataacaccctttatttttataggggagtgctgtagacaaatgttacgacca
+Neobenedenia_melleni ---ttaggaattgctccttttgtttgtttggcagaaacaattagttacatagttcgtcct
+Paragyrodactylus_variegatus ---atcgcaattgcaccttttgtctgtatagcagaaggtataagttattttgttcgtcca
+Polylabris_halichoeres tctgtggtaataacacctttcatattcattggtgagtgttgtagtcaaatgctacgtcct
+Pseudochauhanea_macrorchis tcagttgttataactccttttatatttataggagagtgttgtagtcaaatgttacgacct
+Taenia_saginata ---atttatatatgtccattagtgtgtattgctgagttaataagttatattattcgtcca
+Tetrancistrum_nebulosi ---ttgtggatagctcctttagtggggtttgctgaaactataaggtatatagtacgtcct
+
+Benedenia_hoshinai ttagtcttaaaattacgtccctttttaaaaattactataggttctttagcaggagctagt
+Benedenia_seriolae gctgtcttaaatttacgtccttttttaaaaattactataggatctttagcaggggctagt
+Echinococcus_equinus gtggtgttaattttgcgtccttttattaatattaggttgggatgttttggtgctgtggca
+Gyrodactylus_derjavinoides ttcgtacttattttacgtccctttttaaaccttactataggagcctttggagcacttagt
+Gyrodactylus_gurleyi ttagttctagtattacgtccttttcttaatttaactataggtgcttttggtgcccttagc
+Gyrodactylus_kobayashii tttgtattagttttacgtccatttttaaatttaactattggagcatttggtgctttaagt
+Gyrodactylus_salaris ttcgttcttatactacggcccttcttaaacctgactataggtgcctttggagcccttagt
+Gyrodactylus_thymalli ttcgttcttatactacggcccttcttaaacctgactataggtgcctttggagcccttagt
+Microcotyle_sebastis ataactttgttgttacgcttacttgtaaatttaacttttgcttatttagtttctttaaca
+Neobenedenia_melleni attgtacttatgattcggccttttttaaacataacgataggttctataggaggagctagt
+Paragyrodactylus_variegatus tttgttttaatattacgtccatttcttaacttaagaataggttcttttggtgctttagct
+Polylabris_halichoeres attactttattacttcgtttattagttaatctaacctttgcttatctagtttctttaact
+Pseudochauhanea_macrorchis ataacattaattttacgtttgttggttaacttaacttttgcttatattgtttctttaaca
+Taenia_saginata gtggtgttgattttgcgtccttttataaatataagcttgggttgttttggagctgttgca
+Tetrancistrum_nebulosi attgtgttaatgcttcgtccttttcttaaaatcactatagggtgttttgccgccttagct
+
+Benedenia_hoshinai atagggggtatg------------------------------agtatggctataaatccc
+Benedenia_seriolae ataggaagtatg------------------------------gttatgggtagttatttg
+Echinococcus_equinus ttaggtaatttg------------------------------tgttttgttaatttttgg
+Gyrodactylus_derjavinoides ctaggtggacttataagt------------------------accagtatcaatccaata
+Gyrodactylus_gurleyi ttaggtgggtttataagc------------------------tgtagctttaatcctata
+Gyrodactylus_kobayashii ttaggagggtttattagc------------------------tccaggtttaatccaata
+Gyrodactylus_salaris ctgggtgggctcataaga------------------------tcggggtttaaccctgta
+Gyrodactylus_thymalli ctgggtggactcataaga------------------------tcgggggttaaccctgta
+Microcotyle_sebastis gtaggtagtcagtttgtagagaagtttgttaattttagtataacaccaaagctgttaatt
+Neobenedenia_melleni cttgcttctata------------------------------acgatgagcttaacaggt
+Paragyrodactylus_variegatus ataggaggattttttgta------------------------aaaagaagtagtttatta
+Polylabris_halichoeres gtagcaagacagtttgtagaaaagcttataaggtttaaattaagacctaagataattatt
+Pseudochauhanea_macrorchis gtaggaagacagtttattgagaagtttttaagggggggttttggtttaaagtttatacta
+Taenia_saginata ttgggtaaatta------------------------------agattaattagaggttgg
+Tetrancistrum_nebulosi atagggggagga------------------------------ttttgtaaaaattgacta
+
+Benedenia_hoshinai ttaataggattcttagtgtttctattcatgtatgaggtatttgtagccttagtccattga
+Benedenia_seriolae atattattatttcttttattactttttttttatgaaatttttgtagctttagttcattga
+Echinococcus_equinus tgaggtttgggtttagttgggttgtttttttatgaagtttttgttgcgttaattcactga
+Gyrodactylus_derjavinoides atatttatgttattcatatttatctttttttatgagatattcgttagattagttcactga
+Gyrodactylus_gurleyi atttttatattgttcttatttatttttttctatgagattttcgtaagtctagttcattga
+Gyrodactylus_kobayashii atttttgtactttttttatttatatttttttatgaaatatttgttagtttagttcactga
+Gyrodactylus_salaris atctttatactatttgtatttatatttttctacgagatatttgtaagattagtgcactgg
+Gyrodactylus_thymalli atctttatactatttgtatttatatttttctacgagatatttgtaagattagtgcactgg
+Microcotyle_sebastis atatatagtttttctactttttattttttttatgaaatatttatgagtttcttattaact
+Neobenedenia_melleni atttacttgttcttatgtcttttatttttttatgaaatatttgtagctgtagttcattga
+Paragyrodactylus_variegatus attttttccttatttataattttatttttttacgaaatttttgtatgcttagttcattga
+Polylabris_halichoeres atttattgtttttctgtattttattttttttatgaaatatttatggggttcttgctaacg
+Pseudochauhanea_macrorchis atttattctttttctactttttatttcttttacgaaatatttatgaggtttctgttgact
+Taenia_saginata tggtgtatagtggtattttttttatttttttatgaagtttttgttgctttagttcattga
+Tetrancistrum_nebulosi ttaattgttgggttattaatgctatttttttacgagatttttgtggctatggtccattgg
+
+Benedenia_hoshinai tttatagtagttaaaattctagga------------------ttttctatatttcat---
+Benedenia_seriolae tttatagtagttaaaatcttaggt------------------ttttctattaatcat---
+Echinococcus_equinus tacattgtatccagaattttagat------------------ttttcagttgatcat---
+Gyrodactylus_derjavinoides tttatagtttctaatatattaata------------------ttttctatcgaccat---
+Gyrodactylus_gurleyi tttatagtaagcaatatactaatt------------------ttttctatagatcat---
+Gyrodactylus_kobayashii tttattgtaagtaaaattttaatt------------------ttttttatagatcac---
+Gyrodactylus_salaris ttcatagtgtccaacatactaata------------------ttctctatagaccac---
+Gyrodactylus_thymalli ttcatagtgtccaacatactaata------------------ttctctatagaccac---
+Microcotyle_sebastis tatgtttctcatgctatgttgttaccattaataagtgatatgtatcatgttactcatgta
+Neobenedenia_melleni tttatcattagtaagattttaagc------------------tttagtgtggatcac---
+Paragyrodactylus_variegatus ttcatagttagtaatattttaata------------------ttttctatagatcat---
+Polylabris_halichoeres tatgtgtcacatgcaatgctattatctcttataagggacatgtatcatgtcggacatgtt
+Pseudochauhanea_macrorchis tatgtatctcatgtaatgatgttgtctttaataagagacttacaccatgttttacacatt
+Taenia_saginata tttattgtgactagaattttggcg------------------ttttcagttgatcat---
+Tetrancistrum_nebulosi tttatagtagttaatatactggat------------------tttagtattgaccac---
+
+Benedenia_hoshinai ---------------
+Benedenia_seriolae ---------------
+Echinococcus_equinus ---------------
+Gyrodactylus_derjavinoides ---------------
+Gyrodactylus_gurleyi ---------------
+Gyrodactylus_kobayashii ---------------
+Gyrodactylus_salaris ---------------
+Gyrodactylus_thymalli ---------------
+Microcotyle_sebastis aagttttttaccaac
+Neobenedenia_melleni ---------------
+Paragyrodactylus_variegatus ---------------
+Polylabris_halichoeres aagttttttagaaag
+Pseudochauhanea_macrorchis aagttttttaag---
+Taenia_saginata ---------------
+Tetrancistrum_nebulosi ---------------
+;
+END;
