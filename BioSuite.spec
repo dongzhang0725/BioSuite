@@ -3,8 +3,8 @@
 block_cipher = None
 
 
-a = Analysis(['H:\\BioSuite\\BioSuite.py'],
-             pathex=['H:\\BioSuite'],
+a = Analysis(['H:\\BioSuite\\new\\BioSuite.py'],
+             pathex=['H:\\BioSuite\\new'],
              binaries=None,
              datas=None,
              hiddenimports=[],
@@ -23,7 +23,7 @@ exe = EXE(pyz,
           debug=False,
           strip=False,
           upx=True,
-          console=False , icon='H:\\BioSuite\\src\\root.ico')
+          console=False , icon='H:\\BioSuite\\new\\src\\root.ico')
 coll = COLLECT(exe,
                a.binaries,
                a.zipfiles,
