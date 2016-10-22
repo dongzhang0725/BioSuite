@@ -3,8 +3,8 @@
 block_cipher = None
 
 
-a = Analysis(['H:\\BioSuite\\10_12\\BioSuite.py'],
-             pathex=['H:\\BioSuite\\10_12'],
+a = Analysis(['H:\\BioSuite\\10_22\\BioSuite.py'],
+             pathex=['H:\\BioSuite\\10_22'],
              binaries=None,
              datas=None,
              hiddenimports=[],
