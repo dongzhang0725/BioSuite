@@ -9,8 +9,9 @@ goto EOF
 :_NotX64
 
 set ROOTDIR="%~d0%~p0\ms"
-set PATH=/bin/
+set PATH=/bin/:%PATH%
 set MAFFT_BINARIES=/lib/mafft
+set TMPDIR=%~d0%~p0/ms/tmp
 
 %ROOTDIR%\bin\sh %ROOTDIR%\bin\mafft %*
 

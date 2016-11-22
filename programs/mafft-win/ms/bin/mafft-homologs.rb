@@ -31,7 +31,8 @@ blastpath = "blastall"
 #   -w        entire sequences are subjected to BLAST search 
 #             (default: well-aligned region only)
 
-require 'getopts'
+#require 'getopts'
+require 'optparse'
 require 'tempfile'
 
 # mktemp
@@ -52,17 +53,18 @@ while pfp.gets
 	break if $_ =~ /MAFFT v/
 end
 pfp.close
+
 if( $_ ) then
-	mafftversion = sub( /^\D*/, "" ).split(" ").slice(0).strip.to_s
+	mafftversion = $_.sub( /^\D*/, "" ).split(" ").slice(0).strip.to_s
 else
 	mafftversion = "0"
 end
 if( mafftversion < "5.58" ) then
-	puts ""
-	puts "======================================================"
-	puts "Install new mafft (v. >= 5.58)"
-	puts "======================================================"
-	puts ""
+	STDERR.puts ""
+	STDERR.puts "======================================================"
+	STDERR.puts "Install new mafft (v. >= 5.58)"
+	STDERR.puts "======================================================"
+	STDERR.puts ""
 	exit
 end
 
@@ -93,40 +95,64 @@ entiresearch = 0
 corewin = 50
 corethr = 0.3
 mafftopt = " --op 1.53 --ep 0.123 --localpair --maxiterate 1000 --reorder "
-if getopts( "s", "f", "w", "l", "h", "e:", "a:", "o:", "c:", "d:" ) == nil ||  ARGV.length == 0 || $OPT_h then
-	puts "Usage: #{$0} [-h -l -e# -a# -o\"[options for mafft]\"] input_file"
-	exit
+
+
+#if getopts( "s", "f", "w", "l", "h", "e:", "a:", "o:", "c:", "d:" ) == nil ||  ARGV.length == 0 || $OPT_h then
+#	puts "Usage: #{$0} [-h -l -e# -a# -o\"[options for mafft]\"] input_file"
+#	exit
+#end
+params = ARGV.getopts( "sfwlhe:a:o:c:d:" )
+
+
+#if $OPT_c then
+if params["c"] != nil then
+	corewin = params["c"].to_i
 end
 
-if $OPT_c then
-	corewin = $OPT_c.to_i
+#if $OPT_d then
+if params["d"] != nil then
+	corethr = params["d"].to_f
 end
-if $OPT_d then
-	corethr = $OPT_d.to_f
-end
-if $OPT_w
+
+#if $OPT_w
+if params["w"] == true then
 	entiresearch = 1
 end
-if $OPT_f
+
+#if $OPT_f
+if params["f"] == true then
 	fullout = 1
 end
-if $OPT_s
+
+#if $OPT_s
+if params["s"] == true then
 	fullout = 0
 end
-if $OPT_l
+
+#if $OPT_l
+if params["l"] == true then
 	local = 1
 end
-if $OPT_e then
-	eval = $OPT_e.to_f
-end
-if $OPT_a then
-	nadd = $OPT_a.to_i
-end
-if $OPT_o then
-	mafftopt += " " + $OPT_o + " "
+
+#if $OPT_e then
+if params["e"] != nil then
+#	eval = $OPT_e.to_f
+	eval = params["e"].to_f
 end
 
-system "cat " + ARGV.to_s + " > #{temp_if}"
+#if $OPT_a then
+if params["a"] != nil then
+	nadd = params["a"].to_i
+end
+
+#if $OPT_o then
+if params["o"] != nil then
+	mafftopt += " " + params["o"] + " "
+end
+
+infn = ARGV[0].to_s.strip
+
+system "cat " + infn + " > #{temp_if}"
 ar = mafftopt.split(" ")
 nar = ar.length
 for i in 0..(nar-1)
@@ -372,3 +398,7 @@ end
 
 
 system( "rm -rf #{temp_if} #{temp_vf} #{temp_af} #{temp_bf} #{temp_pf} #{temp_qf} #{temp_res} #{temp_rid}" )
+if File.exist?( "#{temp_af}.tree" ) then
+	system( "sed 's/_addedbymaffte_/_ho_/'  #{temp_af}.tree > #{ARGV[0].to_s}.tree" )
+	system( "rm #{temp_af}.tree" )
+end

@@ -9,6 +9,7 @@
 # 2.0  09.03.13  Added extensive warnings and error messages
 # 3.0  10.28.13  Fix for retrieving large files. Added STDERR logs
 # 3.1  11.08.13  Added LWP failsafe. Made hat3 not a required output
+# 3.2  12.08.14  Removed 5-char restriction for own structure files
 #
 #####################################################################
 
@@ -107,7 +108,7 @@ if ( defined $OWNLIST  )
     {
         chomp;
 
-        if ( /^(\w{5})$/ )
+        if ( /^(\S+)$/ )
         {
             my $fileref = "$WORKDIR/$1.pdb";
 
@@ -268,7 +269,7 @@ if ( scalar keys(%ownids) > 0 )
     {
         chomp;
 
-        if ( /^>\d+_(\w{5})$/ )
+        if ( /^>\d+_(\S+)$/ )
         {
             $instrids{$1} = 1;
         }
@@ -445,7 +446,7 @@ PARAMETERS
      FILE contains a list of PDBIDs (one entry per line); make sure that the PDBIDs are in the standard 5-character pdbid+chain naming format
 
   -o [FILE] -d [DIRECTORY]
-     FILE contains a list of IDs from your own structure/pdb files (one entry per line), IDs should be in the standard 5-character pdbid+chain naming format;
+     FILE contains a list of IDs from your own structure/pdb files (one entry per line)
      for each ID in the list make sure that a corresponding structure file (same ID with .pdb extension) is stored in DIRECTORY
 
   -h [HATFILE]
